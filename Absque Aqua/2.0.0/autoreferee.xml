@@ -1,0 +1,49 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Absque Aqua</name>
+    <version>2.0</version>
+    <creators>
+      <creator>remember to add linstr13 on snapchat</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Red</name>
+      <spawn />
+    </team>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn />
+    </team>
+  </teams>
+  <startregion spawn="0,100,0,0">
+    <cuboid min="-13,98,-11" max="12,115,10" />
+  </startregion>
+  <regions>
+    <cuboid min="-20,0,8" max="19,89,15">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-20,0,-16" max="19,89,-9">
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Red">
+      <block pos="-1,81,-14" id="35,2" />
+      <block pos="0,81,-14" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Blue">
+      <block pos="0,81,13" id="35,2" />
+      <block pos="-1,81,13" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <air pos="25,111,-6">true</air>
+    <lever pos="1,97,0">false</lever>
+    <air pos="25,124,7">true</air>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

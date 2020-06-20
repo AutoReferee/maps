@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Precession</name>
+    <version>1.1.1.1.1</version>
+    <creators>
+      <creator>Arahpthos</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Left</name>
+      <spawn>
+        <location pos="-75,65,907" yaw="270" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Right</name>
+      <spawn>
+        <location pos="-90,65,907" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-82,68,893,0">
+    <cuboid min="-107,63,877" max="-58,75,908" />
+  </startregion>
+  <regions>
+    <cuboid min="-105,0,909" max="-91,250,1240">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-74,0,909" max="-60,250,1240">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-67,111,1050" id="35,5" />
+      <block pos="-67,111,1051" id="35,4" />
+      <block pos="-67,111,1052" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-98,111,1052" id="35,1" />
+      <block pos="-98,111,1051" id="35,4" />
+      <block pos="-98,111,1050" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-105,65,907">true</lever>
+    <lever pos="-60,65,907">true</lever>
+    <lever pos="-83,66,905">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
