@@ -4,11 +4,11 @@
 
 ## Folder Structure
 
-`<map name>/<version number>/<map files>`
+`<map name>/<map files>`
 
 Example:
 
-`Mountain Mayhem/1.1.5/<map files>`
+`Mountain Mayhem/<map files>`
 
 Map files include:
 ```
