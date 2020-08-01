@@ -1,0 +1,71 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Inferno</name>
+    <version>2.3</version>
+    <creators>
+      <creator>Sprok</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="371,60,1921" yaw="180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="347,60,1921" yaw="180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="359,62,1935,359">
+    <cuboid min="338,57,1918" max="380,67,1948" />
+  </startregion>
+  <regions>
+    <cuboid min="366,0,1727" max="376,255,1917">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="342,0,1652" max="352,17,1731">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="366,0,1652" max="376,17,1731">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="366,0,1448" max="376,255,1653">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="342,17,1655" max="352,128,1727">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="342,0,1448" max="352,255,1654">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="366,17,1652" max="376,128,1727">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="342,0,1727" max="352,255,1917">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="368,16,1872" id="35,12" />
+      <block pos="368,17,1869" id="35,15" />
+      <block pos="368,17,1875" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="350,16,1872" id="35,12" />
+      <block pos="350,17,1875" id="35,13" />
+      <block pos="350,17,1869" id="35,15" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="359,57,1924">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

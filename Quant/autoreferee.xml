@@ -1,0 +1,57 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Quant</name>
+    <version>1.2</version>
+    <creators>
+      <creator>BruntForce</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="587,111,-407" yaw="-273" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="587,111,-407" yaw="-273" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="587,111,-407,-273">
+    <cuboid min="580,108,-414" max="594,117,-400" />
+  </startregion>
+  <regions>
+    <cuboid min="595,0,-446" max="626,255,-415">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="548,0,-446" max="579,255,-415">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="548,0,-399" max="579,255,-368">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="595,0,-399" max="626,255,-368">
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Red">
+      <block pos="571,67,-427" id="35,4" />
+      <block pos="567,67,-423" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Blue">
+      <block pos="571,67,-387" id="35,4" />
+      <block pos="567,67,-391" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="587,113,-407">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

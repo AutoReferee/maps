@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Mountain Mayhem</name>
+    <version>1.1.4</version>
+    <creators>
+      <creator>Gramps223</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="46,82,123" yaw="180" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="46,82,138" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="27,89,131,-89">
+    <cuboid min="6,80,111" max="47,97,150" />
+  </startregion>
+  <regions>
+    <cuboid min="42,0,139" max="291,255,154">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="42,0,107" max="291,255,122">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="88,87,109" id="35,4" />
+      <block pos="86,87,109" id="35,14" />
+      <block pos="90,87,109" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="86,87,152" id="35,14" />
+      <block pos="88,87,152" id="35,4" />
+      <block pos="90,87,152" id="35,3" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="46,83,146">false</lever>
+    <lever pos="40,83,130">false</lever>
+    <lever pos="46,83,115">false</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>

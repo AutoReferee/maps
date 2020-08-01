@@ -1,0 +1,64 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Shipwrecked</name>
+    <version>1.2.1</version>
+    <creators>
+      <creator>NickZili</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-15,88,-1" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="15,88,-1" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,89,-7,0">
+    <cuboid min="-31,61,-37" max="26,112,1" />
+  </startregion>
+  <regions>
+    <cuboid min="8,0,0" max="22,58,260">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-22,0,0" max="-8,209,200">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="8,0,0" max="22,209,200">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-22,0,0" max="-8,58,260">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-22,0,200" max="22,206,261">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-19,84,154" id="35,11" />
+      <block pos="-20,84,155" id="35,10" />
+      <block pos="-19,84,156" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="19,84,156" id="35,14" />
+      <block pos="19,84,154" id="35,11" />
+      <block pos="20,84,155" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-11,87,0">true</lever>
+    <lever pos="11,87,0">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

@@ -1,0 +1,65 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Sun Dance</name>
+    <version>1.5</version>
+    <creators>
+      <creator>BruntForce</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Right</name>
+      <spawn>
+        <location pos="74,129,59" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="DARK_PURPLE">
+      <name>Left</name>
+      <spawn>
+        <location pos="74,129,29" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="61,129,44,-89">
+    <cuboid min="16,122,21" max="80,143,67" />
+  </startregion>
+  <regions>
+    <cuboid min="81,0,22" max="482,255,37">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="78,63,22" max="80,122,37">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="78,63,52" max="80,122,67">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="81,0,52" max="482,255,67">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="265,0,38" max="280,255,51">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="156,99,61" id="35,7" />
+      <block pos="158,99,59" id="35,6" />
+      <block pos="160,99,61" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="158,99,30" id="35,6" />
+      <block pos="160,99,28" id="35,3" />
+      <block pos="156,99,28" id="35,7" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="78,128,26">true</lever>
+    <lever pos="64,124,45">false</lever>
+    <lever pos="78,128,63">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

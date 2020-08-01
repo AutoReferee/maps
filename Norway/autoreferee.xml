@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Norway</name>
+    <version>1.0</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-25,81,-28" yaw="359" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="0,81,-28" yaw="1" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-12,82,-45,358">
+    <cuboid min="-28,78,-60" max="3,92,-25" />
+  </startregion>
+  <regions>
+    <cuboid min="-4,0,-28" max="3,255,406">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-28,0,-28" max="-21,255,406">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-25,82,204" id="35,14" />
+      <block pos="-25,83,206" id="35,10" />
+      <block pos="-25,82,208" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="0,83,206" id="35,10" />
+      <block pos="0,82,208" id="35,9" />
+      <block pos="0,82,204" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-22,80,-26">true</lever>
+    <lever pos="-3,80,-26">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

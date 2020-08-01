@@ -1,0 +1,71 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Elemental</name>
+    <version>3.6.1</version>
+    <creators>
+      <creator>foldesi</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="88,143,55" yaw="-3" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="58,143,55" yaw="-1" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="72,143,43,0">
+    <cuboid min="50,135,11" max="105,167,62" />
+  </startregion>
+  <regions>
+    <cuboid min="79,149,60" max="96,254,560">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="50,0,60" max="65,256,559">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="50,150,60" max="63,254,560">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="81,0,60" max="96,256,559">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="89,114,118" id="35,14" />
+      <block pos="89,114,122" id="35,5" />
+      <block pos="90,115,120" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="57,114,122" id="35,5" />
+      <block pos="56,115,120" id="35,11" />
+      <block pos="57,114,118" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="72,139,61">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect>
+    <entity>f69de5cd-a185-c45e-dadb-856ccba850c4</entity>
+    <entity>4179613a-a2ec-49f7-8db7-db7b1a77ea95</entity>
+    <entity>8a2819b9-7640-45fc-b25e-c2bf68dbcd71</entity>
+    <entity>db6c2773-e1d3-4ff2-a8d3-0ec54369f0db</entity>
+    <entity>dc36bdc9-08f8-4638-8082-6b2cba7a38d6</entity>
+  </protect>
+</map>

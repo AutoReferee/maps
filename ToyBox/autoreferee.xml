@@ -1,0 +1,84 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>ToyBox</name>
+    <version>1.1</version>
+    <creators>
+      <creator>Ch4nM4n</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="742,59,246" yaw="-91" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="742,59,217" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="730,59,231,-90">
+    <cuboid min="703,55,212" max="745,88,251" />
+  </startregion>
+  <regions>
+    <cuboid min="1032,0,205" max="1066,255,260">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="1067,0,205" max="1067,31,260">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="743,0,213" max="1031,255,223">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="1067,0,253" max="1067,255,260">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="958,0,251" max="995,255,288">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="958,0,175" max="995,255,212">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="1067,79,205" max="1067,255,260">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="743,0,240" max="1031,255,250">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="1067,0,205" max="1067,255,212">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="1068,0,205" max="1101,255,260">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="928,31,245" id="35,2" />
+      <block pos="944,27,245" id="35,3" />
+      <block pos="912,23,245" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="944,27,218" id="35,3" />
+      <block pos="912,23,218" id="35,5" />
+      <block pos="928,31,218" id="35,2" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="737,55,245">true</lever>
+    <lever pos="737,55,217">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

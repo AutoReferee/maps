@@ -1,0 +1,59 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Divided Together</name>
+    <version>2.1B</version>
+    <creators>
+      <creator ign="im_bad_at_n">Thungon</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Gold</name>
+      <spawn>
+        <location pos="-406,76,141" yaw="0" />
+      </spawn>
+    </team>
+    <team color="AQUA">
+      <name>Diamond</name>
+      <spawn>
+        <location pos="-375,76,141" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-391,77,128,0">
+    <cuboid min="-414,74,112" max="-367,96,145" />
+  </startregion>
+  <regions>
+    <cuboid min="-382,1,209" max="-320,128,224">
+      <owner>Diamond</owner>
+    </cuboid>
+    <cuboid min="-414,1,143" max="-399,128,336">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="-461,1,209" max="-399,128,224">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="-382,1,143" max="-367,128,336">
+      <owner>Diamond</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Gold">
+      <block pos="-402,69,155" id="35,14" />
+      <block pos="-402,69,153" id="35,13" />
+      <block pos="-402,69,154" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Diamond">
+      <block pos="-379,69,153" id="35,13" />
+      <block pos="-379,69,154" id="35,9" />
+      <block pos="-379,69,155" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-378,76,143">true</lever>
+    <lever pos="-391,73,144">false</lever>
+    <lever pos="-403,76,143">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
