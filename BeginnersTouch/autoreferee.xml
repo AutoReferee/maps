@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Beginner's Touch</name>
+    <version>1.5</version>
+    <creators>
+      <creator>Foldesi03</creator>
+      <creator>zzrules21</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="15,51,-14" yaw="181" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-17,51,-14" yaw="180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1,51,0,184">
+    <cuboid min="-25,48,-18" max="24,135,73" />
+  </startregion>
+  <regions>
+    <cuboid min="8,0,-246" max="23,255,-16">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-24,0,-246" max="-9,255,-16">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="22,45,-86" id="35,13" />
+      <block pos="22,45,-88" id="35,14" />
+      <block pos="22,45,-87" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-23,45,-86" id="35,13" />
+      <block pos="-23,45,-88" id="35,14" />
+      <block pos="-23,45,-87" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-13,49,-17">true</lever>
+    <lever pos="12,49,-17">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

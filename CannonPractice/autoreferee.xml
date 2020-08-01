@@ -1,0 +1,86 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Cannon Practice</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Foldesi</creator>
+      <creator>Ausxh</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="DARK_GREEN">
+      <name>Left</name>
+      <spawn>
+        <location pos="50,108,16" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>Right</name>
+      <spawn>
+        <location pos="50,108,34" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="26,108,25,-90">
+    <cuboid min="0,100,0" max="52,130,50" />
+  </startregion>
+  <regions>
+    <cuboid min="51,0,29" max="1000,104,40">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="739,0,29" max="754,104,40">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="51,0,-22" max="924,255,-7">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="51,0,57" max="924,255,72">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="455,38,29" max="517,104,40">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="739,0,10" max="754,104,21">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="51,0,10" max="1000,104,21">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="455,38,10" max="517,104,21">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="968,68,17" id="12,0" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="968,68,33" id="12,0" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="47,105,25">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

@@ -1,0 +1,64 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Bord De Falaise</name>
+    <version>3.1</version>
+    <creators>
+      <creator>TheNeidhartHart</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GREEN">
+      <name>Left</name>
+      <spawn>
+        <location pos="-590,131,1239" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-590,131,1266" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-596,134,1252,0">
+    <cuboid min="-641,126,1228" max="-589,155,1282" />
+  </startregion>
+  <regions>
+    <cuboid min="-641,135,1233" max="-592,155,1282">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-592,0,1233" max="-414,135,1245">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-592,0,1260" max="-414,135,1272">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-426,5,1233" max="-366,39,1260">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-414,-6,1233" max="-355,117,1272">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-583,107,1233" id="35,5" />
+      <block pos="-585,107,1233" id="35,9" />
+      <block pos="-584,107,1233" id="35,2" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-585,107,1272" id="35,9" />
+      <block pos="-584,107,1272" id="35,2" />
+      <block pos="-583,107,1272" id="35,3" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-590,132,1244">true</lever>
+    <lever pos="-590,132,1261">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

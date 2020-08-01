@@ -1,0 +1,52 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Corrupt Lands</name>
+    <version>1.1</version>
+    <creators>
+      <creator>XeroThomas</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="93,72,312" yaw="270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="93,72,279" yaw="270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="72,72,296,269">
+    <cuboid min="48,70,272" max="99,82,319" />
+  </startregion>
+  <regions>
+    <cuboid min="96,0,304" max="623,127,319">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="96,0,272" max="623,127,287">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="120,68,318" id="35,13" />
+      <block pos="122,68,318" id="35,14" />
+      <block pos="121,68,318" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="121,68,273" id="35,11" />
+      <block pos="120,68,273" id="35,13" />
+      <block pos="122,68,273" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="98,72,283">true</lever>
+    <lever pos="98,72,308">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>

@@ -1,0 +1,60 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Arcane Realms</name>
+    <version>1.12</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-266,81,1745" yaw="180" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-235,81,1745" yaw="180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-251,85,1769,180">
+    <cuboid min="-289,77,1742" max="-212,95,1791" />
+  </startregion>
+  <regions>
+    <cuboid min="-274,128,1340" max="-259,130,1382">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-242,128,1340" max="-227,130,1382">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-274,1,1296" max="-259,128,1743">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-242,1,1296" max="-227,128,1743">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-270,96,1693" id="35,9" />
+      <block pos="-270,96,1689" id="35,5" />
+      <block pos="-266,96,1691" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-231,96,1689" id="35,5" />
+      <block pos="-235,96,1691" id="35,1" />
+      <block pos="-231,96,1693" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-241,81,1743">true</lever>
+    <lever pos="-260,81,1743">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Candy Land</name>
+    <version>1.3.3</version>
+    <creators>
+      <creator>Ch4nM4n</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GREEN">
+      <name>Right</name>
+      <spawn>
+        <location pos="741,87,248" yaw="-93" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="741,87,215" yaw="-88" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="730,87,231,-90">
+    <cuboid min="672,82,203" max="744,116,254" />
+  </startregion>
+  <regions>
+    <cuboid min="743,0,240" max="1046,255,255">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="743,0,208" max="1046,255,223">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="792,90,248" id="35,5" />
+      <block pos="792,94,248" id="35,1" />
+      <block pos="793,92,248" id="35,2" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="792,90,215" id="35,5" />
+      <block pos="793,92,215" id="35,2" />
+      <block pos="792,94,215" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="740,84,242">true</lever>
+    <lever pos="740,84,221">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>

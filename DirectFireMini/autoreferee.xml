@@ -1,0 +1,57 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Direct Fire Mini</name>
+    <version>1.0</version>
+    <creators>
+      <creator>zzrules21</creator>
+      <creator>iTouchDude</creator>
+      <creator>csarpaul</creator>
+	  <creator>MjrAwsm</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="31,41,-188" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="31,41,-165" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="44,40,-176,95">
+    <cuboid min="29,39,-192" max="73,59,-162" />
+  </startregion>
+  <regions>
+    <cuboid min="-256,0,-192" max="31,133,-185">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-256,0,-168" max="31,133,-161">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="19,35,-191" id="35,13" />
+      <block pos="18,35,-191" id="35,11" />
+      <block pos="17,35,-191" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="17,35,-162" id="35,14" />
+      <block pos="18,35,-162" id="35,11" />
+      <block pos="19,35,-162" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="30,40,-166">true</lever>
+    <lever pos="30,40,-187">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
