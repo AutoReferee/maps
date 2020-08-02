@@ -1,0 +1,131 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Revenge Fallout</name>
+    <version>1.2.1.0</version>
+    <creators>
+      <creator>grossecolline</creator>
+      <creator>Mekoryll</creator>
+      <creator>Waryoup</creator>
+      <creator>sparkiZ3</creator>
+      <creator>eddymalou27</creator>
+      <creator>petitemontagne</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-14,118,39" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="14,118,39" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,127,0,1">
+    <cuboid min="-39,109,-44" max="47,255,44" />
+  </startregion>
+  <regions>
+    <cuboid min="-19,102,237" max="-9,255,247">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="9,110,122" max="19,255,164">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="9,102,237" max="19,255,247">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="9,131,175" max="19,255,191">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-19,110,122" max="-9,255,164">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="9,126,192" max="19,255,197">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-19,126,192" max="-9,255,197">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="9,113,165" max="19,255,174">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-19,113,165" max="-9,255,174">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="9,122,198" max="19,255,236">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="9,0,39" max="19,255,339">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-19,122,198" max="-9,255,236">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-19,131,175" max="-9,255,191">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-19,0,39" max="-9,255,339">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-15,134,300" id="35,11" />
+      <block pos="-14,134,300" id="35,8" />
+      <block pos="-13,134,300" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="13,134,300" id="35,14" />
+      <block pos="14,134,300" id="35,8" />
+      <block pos="15,134,300" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="8,116,39">true</lever>
+    <lever pos="-8,116,39">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
