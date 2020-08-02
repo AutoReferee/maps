@@ -1,0 +1,48 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Nail</name>
+    <version>1.4e</version>
+    <creators>
+      <creator>Rixiot</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED" maxsize="4">
+      <name>Invaders</name>
+      <spawn>
+        <location pos="249,84,785" yaw="0" />
+      </spawn>
+    </team>
+    <team color="DARK_AQUA" maxsize="4">
+      <name>Defenders</name>
+      <spawn>
+        <location pos="250,84,789" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="249,84,766,0">
+    <cuboid min="241,83,778" max="258,89,793" />
+    <cuboid min="230,0,732" max="269,255,781" />
+  </startregion>
+  <regions>
+    <cuboid min="229,80,1024" max="236,87,1194">
+      <owner>Defenders</owner>
+    </cuboid>
+    <cuboid min="230,0,782" max="269,255,972">
+      <owner>Invaders</owner>
+      <owner>Defenders</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Invaders" />
+    <teamgoals team="Defenders" />
+  </goals>
+  <mechanisms>
+    <lever pos="252,85,784">true</lever>
+    <lever pos="253,85,791">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
