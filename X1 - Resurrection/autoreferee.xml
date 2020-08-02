@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>X1-Resurrection</name>
+    <version>1.4</version>
+    <creators>
+      <creator>Ellie_x</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="-867,65,388" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-867,65,414" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-839,65,401,-272">
+    <cuboid min="-871,63,373" max="-811,76,429" />
+  </startregion>
+  <regions>
+    <cuboid min="-1169,1,383" max="-868,161,393">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1169,1,409" max="-868,161,419">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-999,80,388" id="35,7" />
+      <block pos="-1024,73,388" id="35,10" />
+      <block pos="-999,80,388" id="35,7" />
+      <block pos="-1042,96,388" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-1024,73,414" id="35,10" />
+      <block pos="-1042,96,414" id="35,13" />
+      <block pos="-999,80,414" id="35,7" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-866,65,392">true</lever>
+    <lever pos="-866,65,410">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
