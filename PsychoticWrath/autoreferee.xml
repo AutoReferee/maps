@@ -1,0 +1,52 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Psychotic Wrath</name>
+    <version>6</version>
+    <creators>
+      <creator ign="b504r217">PsychoticSandwich</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="17,136,17" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="17,136,-6" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="26,137,6,-269">
+    <cuboid min="13,131,-18" max="77,144,29" />
+  </startregion>
+  <regions>
+    <cuboid min="-534,70,14" max="15,197,29">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-534,70,-18" max="15,197,-3">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="0,104,28" id="35,7" />
+      <block pos="-1,104,28" id="35,15" />
+      <block pos="1,104,28" id="35,8" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="0,104,-17" id="35,7" />
+      <block pos="1,104,-17" id="35,8" />
+      <block pos="-1,104,-17" id="35,15" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="14,136,-3">true</lever>
+    <lever pos="14,136,14">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
