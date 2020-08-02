@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Industrial Crawl</name>
+    <version>1.4</version>
+    <creators>
+      <creator>Ausxh</creator>
+      <creator>_Oc</creator>
+      <creator>and CantProductions</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Left</name>
+      <spawn>
+        <location pos="84,99,13" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="AQUA">
+      <name>Right</name>
+      <spawn>
+        <location pos="84,99,-14" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="99,103,-1,-269">
+    <cuboid min="73,90,-29" max="119,144,22" />
+  </startregion>
+  <regions>
+    <cuboid min="-221,0,8" max="88,255,19">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-221,0,-20" max="88,255,-9">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-155,89,15" id="35,9" />
+      <block pos="-153,89,15" id="35,5" />
+      <block pos="-157,89,15" id="35,2" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-155,89,-16" id="35,9" />
+      <block pos="-157,89,-16" id="35,2" />
+      <block pos="-153,89,-16" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="93,97,-3">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
