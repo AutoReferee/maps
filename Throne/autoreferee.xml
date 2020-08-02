@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Throne</name>
+    <version>1.4</version>
+    <creators>
+      <creator>intothevoid4</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-928,119,1065" yaw="-91" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-928,119,1034" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-927,120,1050,-89">
+    <cuboid min="-942,117,1023" max="-919,129,1077" />
+  </startregion>
+  <regions>
+    <cuboid min="-1001,0,1059" max="-638,169,1074">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1001,0,1027" max="-638,169,1042">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-988,54,1065" id="35,5" />
+      <block pos="-989,59,1066" id="35,14" />
+      <block pos="-990,52,1065" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-989,59,1035" id="35,14" />
+      <block pos="-988,54,1036" id="35,5" />
+      <block pos="-990,52,1036" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-923,120,1045">true</lever>
+    <lever pos="-923,120,1056">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
