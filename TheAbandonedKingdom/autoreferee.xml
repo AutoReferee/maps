@@ -1,0 +1,74 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>The Abandoned Kingdom</name>
+    <version>1.2</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="67,76,-46" yaw="90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="67,76,-75" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="77,76,-60,92">
+    <cuboid min="63,71,-94" max="91,89,-41" />
+    <cuboid min="62,71,-97" max="97,99,-40" />
+  </startregion>
+  <regions>
+    <cuboid min="-305,93,-59" max="-305,93,-59">
+      <flags>
+        <noaccess />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-305,93,-62" max="-305,93,-62">
+      <flags>
+        <noaccess />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-326,20,-84" max="-281,120,-37">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-280,0,-80" max="73,191,-69">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-278,0,-80" max="73,191,-69">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-280,0,-52" max="73,191,-41">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-159,105,-49" id="35,14" />
+      <block pos="-153,106,-49" id="35,11" />
+      <block pos="-147,107,-49" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-153,106,-72" id="35,11" />
+      <block pos="-147,107,-72" id="35,13" />
+      <block pos="-159,105,-72" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="64,75,-70">true</lever>
+    <lever pos="64,75,-51">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
