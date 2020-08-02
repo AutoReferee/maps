@@ -1,0 +1,51 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Uncivil Engineering</name>
+    <version>1.7.2</version>
+    <creators>
+      <creator>FifthWhammy</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="259,69,84" yaw="-180" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Right</name>
+      <spawn>
+        <location pos="284,69,84" yaw="-180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="272,69,93,-178">
+    <cuboid min="256,67,78" max="287,83,119" />
+  </startregion>
+  <regions>
+    <cuboid min="256,0,-441" max="263,125,79">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="280,0,-441" max="287,125,79">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="256,60,51" id="35,1" />
+      <block pos="256,60,52" id="35,4" />
+      <block pos="256,60,50" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="287,60,50" id="35,14" />
+      <block pos="287,60,52" id="35,4" />
+      <block pos="287,60,51" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="271,69,83">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
