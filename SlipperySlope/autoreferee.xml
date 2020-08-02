@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Slippery Slope</name>
+    <version>2.1</version>
+    <creators>
+      <creator>Thungon</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Gold</name>
+      <spawn>
+        <location pos="263,94,252" yaw="176" />
+      </spawn>
+    </team>
+    <team color="AQUA">
+      <name>Diamond</name>
+      <spawn>
+        <location pos="230,94,252" yaw="178" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="246,95,265,179">
+    <cuboid min="222,89,248" max="271,113,282" />
+  </startregion>
+  <regions>
+    <cuboid min="255,0,-37" max="270,127,254">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="223,0,-37" max="238,127,254">
+      <owner>Diamond</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Gold">
+      <block pos="269,70,231" id="35,9" />
+      <block pos="269,70,232" id="35,13" />
+      <block pos="269,70,230" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Diamond">
+      <block pos="224,70,230" id="35,14" />
+      <block pos="224,70,232" id="35,13" />
+      <block pos="224,70,231" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="234,94,250">true</lever>
+    <lever pos="259,94,250">true</lever>
+    <lever pos="247,91,249">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
