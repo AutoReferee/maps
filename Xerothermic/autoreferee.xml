@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Xerothermic</name>
+    <version>1.7.0</version>
+    <creators>
+      <creator>RMCT Community</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-934,116,27" yaw="180" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Right</name>
+      <spawn>
+        <location pos="-910,116,26" yaw="-180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-922,115,36,176">
+    <cuboid min="-939,113,19" max="-905,140,73" />
+  </startregion>
+  <regions>
+    <cuboid min="-914,0,-297" max="-905,254,22">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-939,0,-296" max="-930,254,22">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-936,114,-31" id="35,5" />
+      <block pos="-937,113,-34" id="35,6" />
+      <block pos="-935,115,-28" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-909,115,-29" id="35,3" />
+      <block pos="-908,114,-32" id="35,5" />
+      <block pos="-907,113,-35" id="35,6" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-922,116,25">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
