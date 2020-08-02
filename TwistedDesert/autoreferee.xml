@@ -1,0 +1,79 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Twisted Desert</name>
+    <version>1.1r</version>
+    <creators>
+      <creator>Fellocakaror</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED" maxsize="4">
+      <name>Red</name>
+      <spawn>
+        <location pos="-17,190,10" yaw="270" />
+      </spawn>
+    </team>
+    <team color="BLUE" maxsize="4">
+      <name>Blue</name>
+      <spawn>
+        <location pos="54,190,46" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="36,188,-89,0">
+    <cuboid min="-23,187,-111" max="68,203,53" />
+  </startregion>
+  <regions>
+    <cuboid min="-22,0,5" max="25,187,20">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-54,0,-27" max="-39,187,116">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="42,0,-27" max="57,187,52">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-54,0,-27" max="57,187,-12">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-54,0,-59" max="89,187,-44">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="74,0,-59" max="89,187,84">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="10,0,37" max="57,187,52">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-54,0,101" max="89,187,116">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-22,0,69" max="89,187,84">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-22,0,5" max="-7,187,84">
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Red">
+      <block pos="-15,87,48" id="35,13" />
+      <block pos="-15,87,46" id="35,15" />
+      <block pos="-15,87,47" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Blue">
+      <block pos="50,87,11" id="35,15" />
+      <block pos="50,87,9" id="35,13" />
+      <block pos="50,87,10" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="19,195,27">true</lever>
+    <lever pos="-15,190,11">true</lever>
+    <lever pos="52,190,47">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
