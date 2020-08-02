@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Urban Unrest</name>
+    <version>1.3</version>
+    <creators>
+      <creator>deathstrikep</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-359,39,19" yaw="0" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-392,39,19" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-375,39,11,-2">
+    <cuboid min="-402,36,-1" max="-349,41,22" />
+  </startregion>
+  <regions>
+    <cuboid min="-400,0,19" max="-384,255,348">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-367,0,19" max="-351,255,348">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-366,41,31" id="35,6" />
+      <block pos="-364,44,42" id="35,9" />
+      <block pos="-366,38,51" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-387,44,42" id="35,9" />
+      <block pos="-385,41,31" id="35,6" />
+      <block pos="-385,38,51" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-359,36,17">true</lever>
+    <lever pos="-392,36,17">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
