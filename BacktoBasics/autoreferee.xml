@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Back to Basics</name>
+    <version>1.5</version>
+    <creators>
+      <creator>wca</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="AQUA">
+      <name>Diamond</name>
+      <spawn />
+    </team>
+    <team color="GOLD">
+      <name>Gold</name>
+      <spawn />
+    </team>
+  </teams>
+  <startregion spawn="885,80,-795,0">
+    <cuboid min="859,67,-814" max="912,85,-773" />
+  </startregion>
+  <regions>
+    <cuboid min="582,4,-786" max="858,93,-775">
+      <owner>Diamond</owner>
+    </cuboid>
+    <cuboid min="582,4,-812" max="858,93,-801">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="859,4,-812" max="862,66,-801">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="859,4,-786" max="862,66,-775">
+      <owner>Diamond</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Diamond">
+      <block pos="845,61,-777" id="35,11" />
+      <block pos="847,61,-777" id="35,5" />
+      <block pos="846,61,-777" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Gold">
+      <block pos="847,61,-810" id="35,5" />
+      <block pos="846,61,-810" id="35,14" />
+      <block pos="845,61,-810" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="866,70,-794">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
