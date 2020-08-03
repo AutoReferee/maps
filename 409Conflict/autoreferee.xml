@@ -1,0 +1,67 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>409: Conflict</name>
+    <version>0.2</version>
+    <creators>
+      <creator>Shibaranne and 404</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="LIGHT_PURPLE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1200,115,180" yaw="90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="1200,115,153" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="1052,73,166,0">
+    <cuboid min="1006,38,107" max="1089,111,203" />
+    <cuboid min="1174,113,132" max="1213,120,201" />
+  </startregion>
+  <regions>
+    <cuboid min="1192,112,176" max="1201,112,184">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="1121,0,148" max="1482,112,158">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="1121,0,175" max="1482,112,185">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="1192,112,149" max="1201,112,157">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="1190,84,180" id="35,6" />
+      <block pos="1184,84,180" id="35,3" />
+      <block pos="1187,87,180" id="35,8" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="1184,84,153" id="35,3" />
+      <block pos="1190,84,153" id="35,6" />
+      <block pos="1187,87,153" id="35,8" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="1197,114,183">true</lever>
+    <lever pos="1197,114,150">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
