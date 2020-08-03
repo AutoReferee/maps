@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Painloop</name>
+    <version>1.1</version>
+    <creators>
+      <creator>BZ_STEVE</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1338,167,-383" yaw="-179" />
+      </spawn>
+    </team>
+    <team>
+      <name>Right</name>
+      <spawn>
+        <location pos="-1312,167,-383" yaw="-180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1325,62,-369,-182">
+    <cuboid min="-1331,61,-375" max="-1319,81,-363" />
+  </startregion>
+  <regions>
+    <cuboid min="-1317,0,-471" max="-1307,215,-380">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1343,0,-471" max="-1333,215,-380">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-1338,134,-394" id="19,1" />
+      <block pos="-1338,135,-393" id="88,0" />
+      <block pos="-1338,134,-392" id="103,0" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-1312,135,-393" id="88,0" />
+      <block pos="-1312,134,-394" id="19,1" />
+      <block pos="-1312,134,-392" id="103,0" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1338,164,-377">true</lever>
+    <lever pos="-1312,164,-377">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
