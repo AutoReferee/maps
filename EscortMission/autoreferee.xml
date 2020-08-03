@@ -1,0 +1,59 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Escort Mission</name>
+    <version>0.8</version>
+    <creators>
+      <creator>linstr13</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-9,69,2" yaw="356" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="8,69,2" yaw="3" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1,72,-2,0">
+    <cuboid min="-16,67,-27" max="15,102,3" />
+  </startregion>
+  <regions>
+    <cuboid min="7,1,0" max="16,66,196">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-17,1,0" max="-8,66,196">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-16,32,46" id="35,14" />
+      <block pos="-16,32,44" id="35,4" />
+      <block pos="-16,32,45" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="15,32,45" id="35,11" />
+      <block pos="15,32,44" id="35,4" />
+      <block pos="15,32,46" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1,70,3">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
