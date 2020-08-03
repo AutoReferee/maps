@@ -1,0 +1,59 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Badlands Boogaloo</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Phorxy</creator>
+      <creator>iTruthful</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="35,67,-10" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="36,67,-36" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="47,67,-23,-269">
+    <cuboid min="32,66,-45" max="65,87,-2" />
+  </startregion>
+  <regions>
+    <cuboid min="-251,0,-45" max="-196,255,-2">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-199,0,-15" max="33,255,-2">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-199,0,-45" max="33,255,-32">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="11,61,-3" id="35,15" />
+      <block pos="10,61,-3" id="35,7" />
+      <block pos="9,61,-3" id="35,0" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="11,61,-44" id="35,15" />
+      <block pos="9,61,-44" id="35,0" />
+      <block pos="10,61,-44" id="35,7" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="34,67,-33">true</lever>
+    <lever pos="34,67,-14">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
