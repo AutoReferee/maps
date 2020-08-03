@@ -1,0 +1,61 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Anarchy: Vanquish</name>
+    <version>1.1-beta</version>
+    <creators>
+      <creator>SongOfStorms11</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-113,119,30" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="-147,119,30" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-130,120,-3,180">
+    <cuboid min="-155,117,-39" max="-104,127,32" />
+  </startregion>
+  <regions>
+    <cuboid min="-155,0,204" max="-105,255,226">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-155,0,28" max="-138,255,226">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-172,120,114" max="-155,124,121">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-105,120,114" max="-88,124,121">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-122,0,28" max="-105,255,226">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left" />
+    <teamgoals team="Right" />
+  </goals>
+  <mechanisms>
+    <lever pos="-121,119,29">true</lever>
+    <lever pos="-130,120,25">true</lever>
+    <lever pos="-139,119,29">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
