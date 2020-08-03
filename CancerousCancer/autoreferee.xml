@@ -1,0 +1,77 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Cancerous Cancer</name>
+    <version>1.0</version>
+    <creators>
+      <creator>iTouchNipples</creator>
+      <creator>charburg</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-172,51,44" yaw="179" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-201,51,44" yaw="179" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-185,50,67,178">
+    <cuboid min="-209,46,40" max="-162,53,93" />
+  </startregion>
+  <regions>
+    <cuboid min="-201,0,-190" max="-194,254,43">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-163,46,5" max="-163,47,7">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-177,0,-190" max="-170,254,43">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-201,0,-80" max="-194,6,6">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-198,237,-232" max="-198,239,-191">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-198,237,-232" max="-198,237,-191">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-177,0,-80" max="-170,4,6">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-173,237,-232" max="-173,239,-191">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-208,46,5" max="-208,47,7">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-163,47,7" id="35,12" />
+      <block pos="-163,47,5" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-208,47,7" id="35,12" />
+      <block pos="-208,47,5" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-168,48,41">true</lever>
+    <lever pos="-204,48,41">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
