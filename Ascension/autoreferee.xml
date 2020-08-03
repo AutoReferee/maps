@@ -1,0 +1,70 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Ascension</name>
+    <version>1.2b</version>
+    <creators>
+      <creator>DJBLADERUNNER</creator>
+      <creator>m0ose12321</creator>
+      <creator>sailer99</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-209,62,-1637" yaw="270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-209,62,-1666" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-207,62,-1651,-91">
+    <cuboid min="-237,48,-1674" max="-197,67,-1629" />
+  </startregion>
+  <regions>
+    <cuboid min="-206,31,-1673" max="-196,40,-1659">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-207,41,-1645" max="-197,48,-1629">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-206,32,-1644" max="-196,40,-1630">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-207,41,-1674" max="-197,48,-1658">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-196,0,-1674" max="154,254,-1659">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-196,0,-1644" max="153,253,-1629">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-188,43,-1630" id="35,10" />
+      <block pos="-190,43,-1630" id="35,11" />
+      <block pos="-186,43,-1630" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-188,43,-1673" id="35,10" />
+      <block pos="-190,43,-1673" id="35,11" />
+      <block pos="-186,43,-1673" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-203,60,-1661">true</lever>
+    <lever pos="-203,60,-1642">true</lever>
+    <lever pos="-201,62,-1652">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect>
+    <entity>61100c77-dc9f-44d4-88aa-486104c5369b</entity>
+    <entity>d082876e-52a2-4529-87ca-764c95d5dcb7</entity>
+  </protect>
+</map>
