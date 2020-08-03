@@ -1,0 +1,86 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Basher's Domain</name>
+    <version>1.5.1</version>
+    <creators>
+      <creator ign="b504r217">PsychoticSandwich</creator>
+      <creator>TomShar</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="-113,83,-4" yaw="90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-108,83,-4" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-111,83,-2,0">
+    <cuboid min="-128,0,-19" max="-93,255,12" />
+  </startregion>
+  <regions>
+    <cuboid min="-128,0,13" max="-117,255,326">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-112,62,399" max="-85,125,507">
+      <flags>
+        <noexplosion />
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-122,77,68" max="-99,255,90">
+      <flags>
+        <noexplosion />
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-142,62,399" max="-115,125,507">
+      <flags>
+        <noexplosion />
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-104,0,13" max="-93,255,326">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-126,63,39" id="35,1" />
+      <block pos="-126,63,38" id="35,13" />
+      <block pos="-126,63,40" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-95,63,40" id="35,9" />
+      <block pos="-95,63,39" id="35,1" />
+      <block pos="-95,63,38" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-112,84,-7">false</lever>
+    <lever pos="-117,80,-6">true</lever>
+    <lever pos="-109,84,-7">false</lever>
+    <lever pos="-104,80,-6">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect>
+    <entity>157e701e-537d-4609-aa67-25998fef8907</entity>
+    <entity>e007b6c6-9f27-4805-9547-fa5b356ba572</entity>
+    <entity>affb86ea-6545-4b30-a015-5af3f3ed52bc</entity>
+    <entity>57dd1e10-0376-44dc-b639-fc77b52fe5ed</entity>
+    <entity>b2da89de-fc8f-494c-8caa-4f3fb8dbb492</entity>
+    <entity>946f7645-48cf-4765-b373-97fc8c0c8584</entity>
+  </protect>
+</map>
