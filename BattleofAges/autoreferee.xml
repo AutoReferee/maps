@@ -1,0 +1,52 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Battle of Ages</name>
+    <version>2.1</version>
+    <creators>
+      <creator>FreckleEars</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-120,64,733" yaw="178" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-153,64,733" yaw="181" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-136,64,788,178" />
+  <regions>
+    <cuboid min="-128,0,128" max="-113,127,750">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-160,0,128" max="-145,127,750">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-118,19,684" id="35,11" />
+      <block pos="-118,19,683" id="35,13" />
+      <block pos="-118,19,685" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-155,19,685" id="35,14" />
+      <block pos="-155,19,683" id="35,13" />
+      <block pos="-155,19,684" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-156,61,727">true</lever>
+    <lever pos="-117,61,727">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
