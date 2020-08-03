@@ -1,0 +1,87 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Blazing Sun</name>
+    <version>1.5</version>
+    <creators>
+      <creator>Gramps223</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-116,108,7" yaw="90" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Left</name>
+      <spawn>
+        <location pos="-101,108,7" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-109,112,1,0">
+    <cuboid min="-128,106,-33" max="-89,117,8" />
+  </startregion>
+  <regions>
+    <cuboid min="-128,0,4" max="-117,255,518">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-120,37,532" max="-114,43,538">
+      <flags>
+        <nobuild />
+        <noaccess />
+        <noentry />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-130,0,361" max="-115,255,411">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-129,0,360" max="-116,255,412">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-102,0,361" max="-87,255,411">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-100,0,4" max="-89,255,518">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-120,37,558" max="-114,43,564">
+      <flags>
+        <nobuild />
+        <noaccess />
+        <noentry />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-138,0,519" max="-79,148,578">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-101,0,360" max="-88,255,412">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-127,113,131" id="35,14" />
+      <block pos="-127,113,61" id="35,4" />
+      <block pos="-127,125,96" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-90,113,61" id="35,4" />
+      <block pos="-90,125,96" id="35,1" />
+      <block pos="-90,113,131" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-108,109,1">false</lever>
+    <lever pos="-124,109,7">false</lever>
+    <lever pos="-93,109,7">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
