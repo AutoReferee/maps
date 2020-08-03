@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Bed War</name>
+    <version>0.12.3</version>
+    <creators>
+      <creator>last_username</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="24,118,-174" yaw="90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="-3,118,173" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="66,83,0,90">
+    <cuboid min="2,114,-186" max="34,125,-162" />
+    <cuboid min="33,80,-177" max="152,121,176" />
+    <cuboid min="-25,114,161" max="34,125,185" />
+  </startregion>
+  <regions>
+    <cuboid min="-31,0,-192" max="32,113,191">
+      <owner>Red</owner>
+      <owner>Blue</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Red">
+      <survive />
+    </teamgoals>
+    <teamgoals team="Blue">
+      <survive />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="14,118,-164">true</lever>
+    <lever pos="-13,118,163">true</lever>
+  </mechanisms>
+  <gameplay>
+    <respawn>beds_only</respawn>
+    <nocraft>
+      <item id="355">BED</item>
+    </nocraft>
+  </gameplay>
+  <protect />
+</map>
