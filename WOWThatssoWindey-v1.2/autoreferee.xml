@@ -1,0 +1,117 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>WOW! That's so Windey!</name>
+    <version>1.2</version>
+    <creators>
+      <creator>minsii</creator>
+      <creator>Wahnivum</creator>
+      <creator>B_Wenz</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="-478,166,123" yaw="271" />
+      </spawn>
+    </team>
+    <team color="DARK_RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="-262,166,85" yaw="88" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-370,166,104,270">
+    <cuboid min="-483,160,70" max="-252,225,131" />
+  </startregion>
+  <regions>
+    <cuboid min="-415,0,117" max="-401,62,131">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-452,0,49" max="-340,255,63">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-400,0,117" max="-325,255,131">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-339,49,92" max="-325,71,116">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-415,0,77" max="-340,255,91">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-481,0,117" max="-416,255,131">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-339,62,77" max="-325,150,91">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-400,0,145" max="-288,255,159">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-415,0,92" max="-401,255,116">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-339,0,92" max="-325,255,116">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-324,0,77" max="-259,255,91">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-415,0,132" max="-401,255,159">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-339,62,91" max="-325,150,91">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-339,0,77" max="-325,62,91">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-339,0,49" max="-325,255,76">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-390,0,92" max="-350,255,116">
+      <owner>Blue</owner>
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-415,62,117" max="-401,150,131">
+      <owner>Blue</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Blue">
+      <block pos="-338,74,111" id="35,1" />
+      <block pos="-338,73,109" id="35,5" />
+      <block pos="-338,75,113" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Red">
+      <block pos="-402,73,99" id="35,5" />
+      <block pos="-402,75,95" id="35,10" />
+      <block pos="-402,74,97" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-475,164,120">false</lever>
+    <lever pos="-474,164,121">false</lever>
+    <lever pos="-479,164,121">false</lever>
+    <lever pos="-478,164,120">false</lever>
+    <lever pos="-261,164,84">false</lever>
+    <lever pos="-262,164,83">false</lever>
+    <lever pos="-479,164,124">false</lever>
+    <lever pos="-478,164,125">false</lever>
+    <lever pos="-475,164,125">false</lever>
+    <lever pos="-265,164,83">false</lever>
+    <lever pos="-266,164,84">false</lever>
+    <lever pos="-262,164,88">false</lever>
+    <lever pos="-474,164,124">false</lever>
+    <lever pos="-265,164,88">false</lever>
+    <lever pos="-479,167,122">true</lever>
+    <lever pos="-266,164,87">false</lever>
+    <lever pos="-261,164,87">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
