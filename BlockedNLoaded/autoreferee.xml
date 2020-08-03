@@ -1,0 +1,63 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Blocked N Loaded</name>
+    <version>1.2.0</version>
+    <creators>
+      <creator>Jorcooly</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-168,128,232" yaw="-88" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-168,128,264" yaw="-86" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-175,128,249,0">
+    <cuboid min="-204,121,225" max="-165,137,273" />
+  </startregion>
+  <regions>
+    <cuboid min="-167,53,225" max="-164,122,240">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-167,0,257" max="-164,123,272">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-164,0,225" max="3,254,240">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-167,0,225" max="-164,122,240">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-163,0,257" max="3,254,272">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-147,95,225" id="35,1" />
+      <block pos="-151,95,225" id="35,2" />
+      <block pos="-149,95,225" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-147,95,272" id="35,1" />
+      <block pos="-149,95,272" id="35,5" />
+      <block pos="-151,95,272" id="35,2" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-165,122,252">true</lever>
+    <lever pos="-165,123,247">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
