@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Cluster Chunk</name>
+    <version>1.4</version>
+    <creators>
+      <creator>three_two</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="-934,226,-764" yaw="270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="-870,226,-761" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-902,226,-651,0">
+    <cuboid min="-872,220,-768" max="-858,242,-757" />
+    <cuboid min="-946,220,-768" max="-932,242,-757" />
+    <cuboid min="-923,218,-668" max="-881,238,-634" />
+  </startregion>
+  <regions>
+    <cuboid min="-981,0,-818" max="-823,218,-707">
+      <owner>Blue</owner>
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Blue">
+      <survive />
+    </teamgoals>
+    <teamgoals team="Red">
+      <survive />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-871,226,-761">true</lever>
+    <lever pos="-933,226,-764">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>13000</clockstart>
+    <respawn>beds_only</respawn>
+    <nocraft>
+      <item id="355,0">BED</item>
+    </nocraft>
+  </gameplay>
+  <protect />
+</map>
