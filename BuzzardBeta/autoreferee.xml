@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Buzzard Beta</name>
+    <version>1.2</version>
+    <creators>
+      <creator>Arahpthos</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GREEN">
+      <name>Right</name>
+      <spawn>
+        <location pos="-14,118,11" yaw="0" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>Left</name>
+      <spawn>
+        <location pos="14,118,11" yaw="-1" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,118,0,0">
+    <cuboid min="-24,113,-18" max="23,154,12" />
+  </startregion>
+  <regions>
+    <cuboid min="-23,0,13" max="-9,255,323">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="8,0,13" max="22,255,323">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-23,120,228" id="35,11" />
+      <block pos="-23,120,226" id="35,13" />
+      <block pos="-23,120,227" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="22,120,226" id="35,13" />
+      <block pos="22,120,227" id="35,14" />
+      <block pos="22,120,228" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="7,118,11">true</lever>
+    <lever pos="0,115,12">true</lever>
+    <lever pos="-8,118,11">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
