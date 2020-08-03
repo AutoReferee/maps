@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Ascendant</name>
+    <version>1.1</version>
+    <creators>
+      <creator>deathstrikep</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1083,44,1022" yaw="85" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="1083,44,1040" yaw="89" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="1090,44,1031,91">
+    <cuboid min="1079,41,1018" max="1110,55,1045" />
+  </startregion>
+  <regions>
+    <cuboid min="886,0,1038" max="1087,255,1043">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="886,0,1020" max="1087,255,1025">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="1064,3,1021" id="35,10" />
+      <block pos="1065,3,1021" id="35,1" />
+      <block pos="1063,3,1021" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="1065,3,1042" id="35,1" />
+      <block pos="1063,3,1042" id="35,14" />
+      <block pos="1064,3,1042" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="1084,42,1041">true</lever>
+    <lever pos="1084,42,1023">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
