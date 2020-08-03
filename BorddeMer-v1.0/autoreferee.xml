@@ -1,0 +1,65 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Bord de Mer</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Pacifica</creator>
+      <creator>Sumilux</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-7,125,-321" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="18,125,-321" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="6,120,-345,179">
+    <cuboid min="14,119,-329" max="30,138,-320" />
+    <cuboid min="-19,119,-329" max="-3,138,-320" />
+    <cuboid min="-18,111,-360" max="29,138,-321" />
+  </startregion>
+  <regions>
+    <cuboid min="14,0,-325" max="29,255,95">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-18,0,-325" max="-3,255,95">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="14,2,-325" max="29,81,94">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-18,2,-325" max="-3,81,94">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-9,112,-271" id="35,12" />
+      <block pos="-8,114,-268" id="35,2" />
+      <block pos="-9,115,-268" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="20,112,-271" id="35,12" />
+      <block pos="19,114,-268" id="35,2" />
+      <block pos="20,115,-268" id="35,3" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="22,123,-330">true</lever>
+    <lever pos="-11,123,-330">true</lever>
+    <lever pos="23,124,-323">true</lever>
+    <lever pos="-12,124,-323">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
