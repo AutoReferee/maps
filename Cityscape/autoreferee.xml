@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Cityscape</name>
+    <version>0.4</version>
+    <creators>
+      <creator>Sprok</creator>
+      <creator>Swurlin</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1474,184,-276" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="1501,184,-276" yaw="-1" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="1488,184,-290,0">
+    <cuboid min="1466,178,-313" max="1509,187,-273" />
+  </startregion>
+  <regions>
+    <cuboid min="1466,0,-274" max="1479,255,70">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="1496,0,-274" max="1509,255,70">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="1477,138,-168" id="35,3" />
+      <block pos="1472,128,-196" id="35,1" />
+      <block pos="1471,138,-221" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="1504,138,-221" id="35,10" />
+      <block pos="1503,128,-196" id="35,1" />
+      <block pos="1498,138,-168" id="35,3" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="1474,180,-277">true</lever>
+    <lever pos="1501,180,-277">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
