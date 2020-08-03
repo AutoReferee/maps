@@ -1,0 +1,50 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Close Combat</name>
+    <version>1.1</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-421,99,183" yaw="-88" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-421,99,151" yaw="-89" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-434,100,167,-86">
+    <cuboid min="-448,96,144" max="-418,105,191" />
+  </startregion>
+  <regions>
+    <cuboid min="-422,0,176" max="-225,127,191">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-422,0,144" max="-225,127,159">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-413,65,189" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-413,65,146" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-419,99,156">true</lever>
+    <lever pos="-419,99,179">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
