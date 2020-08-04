@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Blocked 'n' Loaded</name>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <creators>
       <creator>Jorcooly</creator>
     </creators>
@@ -24,7 +24,7 @@
     <cuboid min="-205,121,224" max="-164,137,273" />
   </startregion>
   <regions>
-    <cuboid min="-153,0,225" max="3,255,240">
+    <cuboid min="-163,0,225" max="3,255,240">
       <owner>Red</owner>
     </cuboid>
     <cuboid min="-86,130,257" max="-27,148,268">
@@ -33,10 +33,10 @@
       </flags>
       <owner>Blue</owner>
     </cuboid>
-    <cuboid min="-153,0,257" max="3,255,272">
+    <cuboid min="-163,0,257" max="3,255,272">
       <owner>Blue</owner>
     </cuboid>
-    <cuboid min="-167,0,225" max="-154,128,240">
+    <cuboid min="-167,0,225" max="-164,128,240">
       <owner>Red</owner>
     </cuboid>
     <cuboid min="-86,130,229" max="-27,148,240">
@@ -45,7 +45,7 @@
       </flags>
       <owner>Red</owner>
     </cuboid>
-    <cuboid min="-167,0,257" max="-154,128,272">
+    <cuboid min="-167,0,257" max="-164,128,272">
       <owner>Blue</owner>
     </cuboid>
   </regions>
