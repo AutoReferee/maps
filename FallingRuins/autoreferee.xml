@@ -1,0 +1,64 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Falling Ruins</name>
+    <version>2.5a</version>
+    <creators>
+      <creator>HonneyPlay</creator>
+      <creator>TomShar</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="LIGHT_PURPLE">
+      <name>Purple</name>
+      <spawn>
+        <location pos="12,59,25" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="YELLOW">
+      <name>Yellow</name>
+      <spawn>
+        <location pos="12,59,-6" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="8,59,10,-89">
+    <cuboid min="-14,58,-14" max="15,89,33" />
+  </startregion>
+  <regions>
+    <cuboid min="205,1,18" max="384,130,33">
+      <owner>Yellow</owner>
+    </cuboid>
+    <cuboid min="205,1,-14" max="384,130,1">
+      <owner>Purple</owner>
+    </cuboid>
+    <cuboid min="132,1,-14" max="204,130,33">
+      <owner>Purple</owner>
+      <owner>Yellow</owner>
+    </cuboid>
+    <cuboid min="10,1,-14" max="131,130,1">
+      <owner>Yellow</owner>
+    </cuboid>
+    <cuboid min="10,1,18" max="131,130,33">
+      <owner>Purple</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Purple">
+      <block pos="370,40,-9" id="35,14" />
+      <block pos="370,40,-7" id="35,11" />
+      <block pos="370,40,-5" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Yellow">
+      <block pos="370,40,26" id="35,11" />
+      <block pos="370,40,28" id="35,14" />
+      <block pos="370,40,24" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="13,60,-3">true</lever>
+    <lever pos="9,48,7">true</lever>
+    <lever pos="13,60,22">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
