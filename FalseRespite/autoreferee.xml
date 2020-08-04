@@ -1,0 +1,63 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>False Respite</name>
+    <version>1.2</version>
+    <creators>
+      <creator>Arahpthos</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Gold</name>
+      <spawn>
+        <location pos="11,129,8" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Green</name>
+      <spawn>
+        <location pos="-12,129,8" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,129,0,0">
+    <cuboid min="-17,124,-18" max="16,133,12" />
+  </startregion>
+  <regions>
+    <cuboid min="37,27,8" max="43,255,242">
+      <owner>Green</owner>
+    </cuboid>
+    <cuboid min="-17,0,8" max="-11,255,242">
+      <owner>Green</owner>
+    </cuboid>
+    <cuboid min="-44,27,8" max="-38,255,242">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="10,0,8" max="16,255,242">
+      <owner>Gold</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Gold">
+      <block pos="16,84,121" id="35,14" />
+      <block pos="10,80,130" id="35,7" />
+      <block pos="10,87,109" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Green">
+      <block pos="-11,87,109" id="35,13" />
+      <block pos="-11,80,130" id="35,7" />
+      <block pos="-17,84,121" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1,126,12">true</lever>
+    <lever pos="8,129,8">true</lever>
+    <lever pos="0,126,9">true</lever>
+    <lever pos="0,127,5">true</lever>
+    <lever pos="-9,129,8">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
