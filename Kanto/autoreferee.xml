@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Kanto</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Ch4nM4n</creator>
+      <creator>csarpaul</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-614,101,-680" yaw="180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-643,101,-680" yaw="181" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-628,105,-644,180">
+    <cuboid min="-664,83,-689" max="-598,119,-631" />
+  </startregion>
+  <regions>
+    <cuboid min="-650,0,-1120" max="-636,255,-679">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-621,0,-1120" max="-607,255,-679">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-615,82,-801" id="35,5" />
+      <block pos="-616,83,-806" id="35,14" />
+      <block pos="-610,84,-804" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-647,84,-804" id="35,3" />
+      <block pos="-641,83,-806" id="35,14" />
+      <block pos="-642,82,-801" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-616,102,-679">true</lever>
+    <lever pos="-641,102,-679">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
