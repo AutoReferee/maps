@@ -1,0 +1,51 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Jungle Rush</name>
+    <version>1.0.1</version>
+    <creators>
+      <creator>taschneide</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="80,187,267" yaw="-268" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="80,187,292" yaw="-268" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="95,188,280,-270">
+    <cuboid min="78,184,263" max="119,191,296" />
+  </startregion>
+  <regions>
+    <cuboid min="-112,16,264" max="80,184,271">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-112,16,288" max="80,184,295">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-54,46,267" id="35,12" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-54,46,292" id="35,12" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="79,187,271">true</lever>
+    <lever pos="80,188,279">true</lever>
+    <lever pos="79,187,288">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
