@@ -1,0 +1,84 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Close Encounters 2</name>
+    <version>0.x-alpha</version>
+    <creators>
+      <creator>Fellockaror</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="534,68,631" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="557,68,631" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="545,69,612,0">
+    <cuboid min="443,0,591" max="529,255,611" />
+    <cuboid min="555,67,632" max="560,71,633" />
+    <cuboid min="531,67,632" max="536,71,633" />
+    <cuboid min="562,0,594" max="576,255,620" />
+    <cuboid min="530,0,576" max="561,255,631" />
+  </startregion>
+  <regions>
+    <cuboid min="562,0,730" max="621,33,747">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="492,0,729" max="529,33,747">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="554,0,632" max="561,255,780">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="562,0,729" max="599,33,747">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="529,0,687" max="537,255,696">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="554,0,687" max="562,255,696">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="492,0,716" max="519,33,747">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="572,0,716" max="599,33,747">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="530,0,632" max="537,255,780">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="470,0,730" max="529,33,747">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="532,35,722" id="35,9" />
+      <block pos="532,35,721" id="35,15" />
+      <block pos="532,35,723" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="559,35,722" id="35,9" />
+      <block pos="559,35,721" id="35,15" />
+      <block pos="559,35,723" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="546,69,624">false</lever>
+    <lever pos="546,68,632">false</lever>
+    <lever pos="556,69,631">false</lever>
+    <lever pos="535,69,631">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
