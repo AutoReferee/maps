@@ -1,4 +1,4 @@
-# Maps
+# Maps [![discord](https://img.shields.io/discord/212071932814688257?label=discord)](https://discord.gg/Tb38fSa)
 > Maps configured to work with the AutoReferee plugin.
 
 ## Overview
