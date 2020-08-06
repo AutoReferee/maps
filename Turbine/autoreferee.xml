@@ -1,0 +1,63 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Turbine</name>
+    <version>1.1b</version>
+    <creators>
+      <creator>taschneide</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="-17,98,-30" yaw="180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="15,98,-30" yaw="180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1,98,-5,180">
+    <cuboid min="-26,92,-31" max="23,134,23" />
+  </startregion>
+  <regions>
+    <cuboid min="-25,0,-203" max="-10,115,-29">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-25,80,-203" max="-10,115,-29">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="7,80,-203" max="22,115,-29">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="7,0,-203" max="22,115,-29">
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Blue">
+      <block pos="-13,37,-65" id="35,12" />
+    </teamgoals>
+    <teamgoals team="Red">
+      <block pos="10,37,-65" id="35,12" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="7,97,-30">true</lever>
+    <lever pos="-10,97,-30">true</lever>
+    <lever pos="-2,94,-32">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
