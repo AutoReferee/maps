@@ -1,0 +1,66 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Super Bowl Scramble</name>
+    <version>1.1</version>
+    <creators>
+      <creator>zzrules21</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="DARK_BLUE">
+      <name>Broncos</name>
+      <spawn>
+        <location pos="288,73,177" yaw="-360" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Seahawks</name>
+      <spawn>
+        <location pos="318,73,177" yaw="-360" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="303,73,157,-357">
+    <cuboid min="280,70,131" max="327,79,179" />
+  </startregion>
+  <regions>
+    <cuboid min="311,46,237" max="325,59,348">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Seahawks</owner>
+    </cuboid>
+    <cuboid min="280,0,177" max="294,169,348">
+      <owner>Broncos</owner>
+    </cuboid>
+    <cuboid min="311,0,177" max="325,169,348">
+      <owner>Seahawks</owner>
+    </cuboid>
+    <cuboid min="280,46,237" max="294,61,348">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Broncos</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Broncos">
+      <block pos="285,25,211" id="35,4" />
+      <block pos="285,29,212" id="35,15" />
+      <block pos="285,25,213" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Seahawks">
+      <block pos="320,25,213" id="35,13" />
+      <block pos="320,29,212" id="35,15" />
+      <block pos="320,25,211" id="35,4" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="293,72,178">true</lever>
+    <lever pos="312,72,178">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
