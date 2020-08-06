@@ -1,0 +1,57 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Moonrise Mountains</name>
+    <version>2.0</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-10,51,-2" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="9,51,-2" yaw="360" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,53,-8,3">
+    <cuboid min="-12,48,-35" max="11,61,3" />
+  </startregion>
+  <regions>
+    <cuboid min="-12,255,295" max="-12,255,295">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-12,0,0" max="-8,254,295">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="7,0,0" max="11,254,295">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-10,93,64" id="35,13" />
+      <block pos="-10,93,58" id="35,9" />
+      <block pos="-10,92,61" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="9,92,61" id="35,14" />
+      <block pos="9,93,64" id="35,13" />
+      <block pos="9,93,58" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-9,50,2">true</lever>
+    <lever pos="8,50,2">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
