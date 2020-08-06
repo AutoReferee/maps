@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Spheric Ruins</name>
+    <version>1.0.5</version>
+    <creators>
+      <creator>Thomaszs</creator>
+      <creator ign="jobble">Jobble</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE" maxsize="4">
+      <name>Right</name>
+      <spawn>
+        <location pos="323,72,-64" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED" maxsize="4">
+      <name>Left</name>
+      <spawn>
+        <location pos="324,72,-17" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="345,72,-41,90">
+    <cuboid min="320,0,-80" max="372,90,-1" />
+  </startregion>
+  <regions>
+    <cuboid min="-533,0,-32" max="319,255,-1">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-533,0,-80" max="319,255,-49">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="301,66,-77" id="35,1" />
+      <block pos="303,66,-77" id="35,14" />
+      <block pos="297,66,-77" id="35,5" />
+      <block pos="299,66,-77" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="303,66,-4" id="35,14" />
+      <block pos="301,66,-4" id="35,1" />
+      <block pos="299,66,-4" id="35,3" />
+      <block pos="297,66,-4" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="322,73,-19">true</lever>
+    <lever pos="322,73,-62">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
