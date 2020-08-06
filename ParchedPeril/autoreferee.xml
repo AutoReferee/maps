@@ -1,0 +1,58 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Parched Peril</name>
+    <version>2.1</version>
+    <creators>
+      <creator>iTouchDude</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1,38,-12" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="0,38,11" yaw="-268" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="5,38,0,-268">
+    <cuboid min="-2,36,-16" max="16,55,16" />
+    <cuboid min="16,0,-16" max="66,255,16" />
+  </startregion>
+  <regions>
+    <cuboid min="-120,0,8" max="-1,255,15">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-120,0,-15" max="-1,255,-8">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-120,31,-15" max="-1,34,-8">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-20,17,-11" id="35,1" />
+      <block pos="-11,15,-10" id="35,10" />
+      <block pos="-14,20,-8" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-14,20,8" id="35,9" />
+      <block pos="-11,15,10" id="35,10" />
+      <block pos="-20,17,11" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="2,36,0">false</lever>
+    <lever pos="4,36,0">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
