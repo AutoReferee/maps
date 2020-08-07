@@ -1,0 +1,58 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Kithicor's Edge</name>
+    <version>1.4</version>
+    <creators>
+      <creator>deathstrikep</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1125,143,2183" yaw="-180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1159,143,2183" yaw="-180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1142,143,2191,-180">
+    <cuboid min="-1161,139,2181" max="-1123,153,2209" />
+  </startregion>
+  <regions>
+    <cuboid min="-1165,0,1828" max="-1150,255,2187">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1134,0,1828" max="-1119,255,2187">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1165,0,1726" max="-1119,255,1827">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-1131,102,2158" id="35,6" />
+      <block pos="-1131,102,2157" id="35,15" />
+      <block pos="-1131,102,2159" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-1153,102,2159" id="35,1" />
+      <block pos="-1153,102,2158" id="35,6" />
+      <block pos="-1153,102,2157" id="35,15" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1128,140,2185">true</lever>
+    <lever pos="-1156,140,2185">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
