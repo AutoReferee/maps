@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Blocked 'n' Loaded</name>
-    <version>2.0.1</version>
+    <version>2.1.0</version>
     <creators>
       <creator>Jorcooly</creator>
     </creators>
@@ -9,22 +9,18 @@
   <teams>
     <team color="RED">
       <name>Red</name>
-      <spawn>
-        <location pos="-169,128,232" yaw="-88" />
-      </spawn>
+      <spawn />
     </team>
     <team color="BLUE">
       <name>Blue</name>
-      <spawn>
-        <location pos="-169,128,264" yaw="-89" />
-      </spawn>
+      <spawn />
     </team>
   </teams>
   <startregion spawn="-175,128,249,0">
     <cuboid min="-205,121,224" max="-164,137,273" />
   </startregion>
   <regions>
-    <cuboid min="-163,0,225" max="3,255,240">
+    <cuboid min="-153,0,225" max="3,255,240">
       <owner>Red</owner>
     </cuboid>
     <cuboid min="-86,130,257" max="-27,148,268">
@@ -33,32 +29,32 @@
       </flags>
       <owner>Blue</owner>
     </cuboid>
-    <cuboid min="-163,0,257" max="3,255,272">
-      <owner>Blue</owner>
-    </cuboid>
-    <cuboid min="-167,0,225" max="-164,128,240">
-      <owner>Red</owner>
-    </cuboid>
     <cuboid min="-86,130,229" max="-27,148,240">
       <flags>
         <noexplosion />
       </flags>
       <owner>Red</owner>
     </cuboid>
-    <cuboid min="-167,0,257" max="-164,128,272">
+    <cuboid min="-167,0,257" max="-154,128,272">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-167,0,225" max="-154,128,240">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-153,0,257" max="3,255,272">
       <owner>Blue</owner>
     </cuboid>
   </regions>
   <goals>
     <teamgoals team="Red">
-      <block pos="-149,95,225" id="35,5" />
-      <block pos="-151,95,225" id="35,2" />
-      <block pos="-147,95,225" id="35,1" />
+      <block pos="-89,67,231" id="35,2" />
+      <block pos="-85,67,231" id="35,1" />
+      <block pos="-87,67,231" id="35,5" />
     </teamgoals>
     <teamgoals team="Blue">
-      <block pos="-149,95,272" id="35,5" />
-      <block pos="-147,95,272" id="35,1" />
-      <block pos="-151,95,272" id="35,2" />
+      <block pos="-85,67,266" id="35,1" />
+      <block pos="-89,67,266" id="35,2" />
+      <block pos="-87,67,266" id="35,5" />
     </teamgoals>
   </goals>
   <mechanisms>
