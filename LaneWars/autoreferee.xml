@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Lane Wars</name>
+    <version>1.7b</version>
+    <creators>
+      <creator>ixraider</creator>
+      <creator>CR0SBO</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-17,64,15" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="14,64,15" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,64,0,0">
+    <cuboid min="-49,0,-20" max="45,73,22" />
+  </startregion>
+  <regions>
+    <cuboid min="-26,0,20" max="-10,127,374">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="7,0,20" max="23,127,374">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-25,60,52" id="35,13" />
+      <block pos="-25,60,50" id="35,14" />
+      <block pos="-25,60,51" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="22,60,51" id="35,11" />
+      <block pos="22,60,50" id="35,14" />
+      <block pos="22,60,52" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-2,65,11">true</lever>
+    <lever pos="-11,62,21">true</lever>
+    <lever pos="8,62,21">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
