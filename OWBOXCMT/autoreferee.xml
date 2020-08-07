@@ -1,0 +1,49 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>OWBOXCMT</name>
+    <version>1.1d</version>
+    <creators>
+      <creator>Coestar</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="0,63,1" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="-24,63,1" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-12,63,-23,0">
+    <cuboid min="-48,58,-39" max="7,80,3" />
+  </startregion>
+  <regions>
+    <cuboid min="-7,0,1" max="7,127,185">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-31,0,1" max="-17,127,185">
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Blue">
+      <block pos="6,17,16" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Red">
+      <block pos="-30,17,16" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-7,62,2">true</lever>
+    <lever pos="-12,64,-4">true</lever>
+    <lever pos="-17,62,2">true</lever>
+  </mechanisms>
+  <gameplay />
+  <protect />
+</map>
