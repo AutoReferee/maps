@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Iron Horse Impact</name>
+    <version>0.4</version>
+    <creators>
+      <creator>SongOfStorms</creator>
+      <creator>thatswhatbradsaid</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED" maxsize="4">
+      <name>Red</name>
+      <spawn>
+        <location pos="444,111,-116" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="BLUE" maxsize="4">
+      <name>Blue</name>
+      <spawn>
+        <location pos="469,111,-116" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="457,112,-116,-180">
+    <cuboid min="442,98,-123" max="471,125,-93" />
+  </startregion>
+  <regions>
+    <cuboid min="440,0,-228" max="445,97,33">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="468,0,-228" max="473,97,33">
+      <owner>Blue</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Red">
+      <block pos="445,55,-200" id="35,6" />
+      <block pos="445,55,-204" id="35,10" />
+      <block pos="445,55,-208" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Blue">
+      <block pos="468,55,-208" id="35,5" />
+      <block pos="468,55,-204" id="35,10" />
+      <block pos="468,55,-200" id="35,6" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="456,109,-119">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
