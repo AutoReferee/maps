@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Stepping Stones</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Thungon</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="AQUA">
+      <name>Diamond</name>
+      <spawn>
+        <location pos="12,65,22" yaw="-1" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>Gold</name>
+      <spawn>
+        <location pos="-12,65,22" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,65,0,0">
+    <cuboid min="-29,54,-26" max="26,88,27" />
+  </startregion>
+  <regions>
+    <cuboid min="-15,0,24" max="-9,255,237">
+      <owner>Gold</owner>
+    </cuboid>
+    <cuboid min="9,0,24" max="15,255,237">
+      <owner>Diamond</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Diamond">
+      <block pos="14,41,50" id="35,5" />
+      <block pos="14,41,49" id="35,13" />
+      <block pos="14,41,52" id="35,12" />
+      <block pos="14,41,51" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Gold">
+      <block pos="-14,41,49" id="35,13" />
+      <block pos="-14,41,51" id="35,4" />
+      <block pos="-14,41,50" id="35,5" />
+      <block pos="-14,41,52" id="35,12" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-10,60,14">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
