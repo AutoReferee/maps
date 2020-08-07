@@ -1,0 +1,73 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>WOW! That's so Straight!</name>
+    <version>1.2</version>
+    <creators>
+      <creator>ausxh2004</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-263,165,86" yaw="179" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-262,165,123" yaw="179" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-370,166,104,0">
+    <cuboid min="-267,162,119" max="-260,167,126" />
+    <cuboid min="-267,162,82" max="-260,167,89" />
+    <cuboid min="-267,162,89" max="-260,167,119" />
+    <cuboid min="-387,163,99" max="-353,212,109" />
+  </startregion>
+  <regions>
+    <cuboid min="-596,10,77" max="-259,255,91">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-596,10,117" max="-259,255,131">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-390,10,92" max="-350,255,116">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-419,75,78" id="35,10" />
+      <block pos="-421,74,78" id="35,1" />
+      <block pos="-423,73,78" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-419,75,130" id="35,10" />
+      <block pos="-423,73,130" id="35,5" />
+      <block pos="-421,74,130" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-261,164,121">false</lever>
+    <lever pos="-265,164,120">false</lever>
+    <lever pos="-261,164,84">false</lever>
+    <lever pos="-266,164,124">false</lever>
+    <lever pos="-266,164,84">false</lever>
+    <lever pos="-266,164,87">false</lever>
+    <lever pos="-261,164,124">false</lever>
+    <lever pos="-265,164,125">false</lever>
+    <lever pos="-262,164,125">false</lever>
+    <lever pos="-261,164,87">false</lever>
+    <lever pos="-262,164,88">false</lever>
+    <lever pos="-266,164,121">false</lever>
+    <lever pos="-262,164,120">false</lever>
+    <lever pos="-265,164,88">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
