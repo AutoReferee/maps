@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Hostilities Begin</name>
+    <version>1.1b</version>
+    <creators>
+      <creator>Vechs1</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE" maxsize="4">
+      <name>Right</name>
+      <spawn>
+        <location pos="318,73,-58" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED" maxsize="4">
+      <name>Left</name>
+      <spawn>
+        <location pos="318,73,-23" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="343,72,-40,90">
+    <cuboid min="316,71,-80" max="367,75,-1" />
+  </startregion>
+  <regions>
+    <cuboid min="-432,0,-80" max="319,127,-49">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-432,0,-32" max="319,127,-1">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="298,68,-79" id="35,11" />
+      <block pos="299,68,-79" id="35,13" />
+      <block pos="297,68,-79" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="299,68,-2" id="35,13" />
+      <block pos="297,68,-2" id="35,14" />
+      <block pos="298,68,-2" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="317,72,-53">true</lever>
+    <lever pos="317,72,-28">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
