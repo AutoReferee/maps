@@ -1,0 +1,76 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Closing Heat</name>
+    <version>1.x</version>
+    <creators>
+      <creator>Koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="132,80,30" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="132,80,55" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="144,80,43,90">
+    <cuboid min="129,78,24" max="172,91,61" />
+  </startregion>
+  <regions>
+    <cuboid min="-209,0,24" max="-172,255,61">
+      <flags>
+        <nobuild />
+        <noteleport />
+      </flags>
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-171,0,24" max="130,255,35">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-171,0,50" max="130,255,61">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-171,0,24" max="-136,255,35">
+      <flags>
+        <nobuild />
+        <noteleport />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-171,0,50" max="-136,255,61">
+      <flags>
+        <nobuild />
+        <noteleport />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="121,71,25" id="35,14" />
+      <block pos="119,71,25" id="35,13" />
+      <block pos="120,71,25" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="120,71,60" id="35,11" />
+      <block pos="121,71,60" id="35,14" />
+      <block pos="119,71,60" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="130,79,51">true</lever>
+    <lever pos="130,79,34">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
