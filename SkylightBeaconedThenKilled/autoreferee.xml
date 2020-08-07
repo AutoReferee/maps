@@ -1,0 +1,98 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Skylight: Beaconed Then Killed</name>
+    <version>2.0</version>
+    <creators>
+      <creator>SongOfStorms11</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="367,120,-212" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="692,120,-227" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="529,75,-264,0">
+    <cuboid min="527,68,-292" max="532,77,-287" />
+    <cuboid min="365,119,-221" max="379,125,-202" />
+    <cuboid min="519,70,-271" max="540,84,-254" />
+    <cuboid min="680,119,-236" max="694,125,-217" />
+  </startregion>
+  <regions>
+    <cuboid min="648,27,-228" max="654,33,-207">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="474,36,-240" max="478,44,-235">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="637,35,-241" max="641,44,-235">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="418,35,-203" max="422,44,-197">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="581,36,-203" max="585,44,-198">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="649,28,-212" max="668,32,-205">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="679,0,-234" max="694,255,-219">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="365,0,-234" max="694,255,-204">
+      <owner>Red</owner>
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="391,28,-233" max="410,32,-226">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="405,27,-231" max="411,33,-210">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="365,0,-219" max="380,255,-204">
+      <flags>
+        <noentry />
+      </flags>
+      <owner>Blue</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Red">
+      <block pos="368,42,-207" id="138,0" />
+    </teamgoals>
+    <teamgoals team="Blue">
+      <block pos="691,42,-231" id="138,0" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="529,121,-220">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
