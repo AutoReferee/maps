@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Moonlight Kingdom</name>
+    <version>1.1</version>
+    <creators>
+      <creator>CatProductions</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="29,67,95" yaw="180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="4,67,95" yaw="180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="16,70,99,182">
+    <cuboid min="-1,64,93" max="36,72,111" />
+  </startregion>
+  <regions>
+    <cuboid min="0,0,-137" max="8,255,92">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="25,0,-137" max="33,255,92">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="27,97,48" id="35,13" />
+      <block pos="29,97,48" id="35,11" />
+      <block pos="31,97,48" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="6,97,48" id="35,13" />
+      <block pos="4,97,48" id="35,11" />
+      <block pos="2,97,48" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="8,68,95">true</lever>
+    <lever pos="25,68,95">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
