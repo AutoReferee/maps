@@ -1,0 +1,98 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>The Walls</name>
+    <version>1.x</version>
+    <creators>
+      <creator>Hypixel</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GREEN">
+      <name>C</name>
+      <spawn>
+        <location pos="410,115,-730" yaw="135" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>D</name>
+      <spawn>
+        <location pos="410,115,-856" yaw="45" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>B</name>
+      <spawn>
+        <location pos="284,115,-730" yaw="225" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>A</name>
+      <spawn>
+        <location pos="284,115,-856" yaw="315" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="235,149,-793,89">
+    <cuboid min="283,115,-857" max="294,116,-855" />
+    <cuboid min="409,115,-857" max="411,116,-846" />
+    <cuboid min="283,115,-740" max="285,116,-729" />
+    <cuboid min="283,115,-731" max="294,116,-729" />
+    <cuboid min="400,115,-731" max="411,116,-729" />
+    <cuboid min="409,115,-740" max="411,116,-729" />
+    <cuboid min="400,115,-857" max="411,116,-855" />
+    <cuboid min="231,148,-805" max="252,151,-781" />
+    <cuboid min="283,115,-857" max="285,116,-846" />
+  </startregion>
+  <regions>
+    <cuboid min="285,52,-857" max="409,141,-731">
+      <owner>C</owner>
+      <owner>D</owner>
+      <owner>B</owner>
+      <owner>A</owner>
+    </cuboid>
+    <cuboid min="347,86,-855" max="347,141,-731">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>C</owner>
+      <owner>D</owner>
+      <owner>B</owner>
+      <owner>A</owner>
+    </cuboid>
+    <cuboid min="285,86,-793" max="409,141,-793">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>C</owner>
+      <owner>D</owner>
+      <owner>B</owner>
+      <owner>A</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="C">
+      <survive />
+    </teamgoals>
+    <teamgoals team="D">
+      <survive />
+    </teamgoals>
+    <teamgoals team="B">
+      <survive />
+    </teamgoals>
+    <teamgoals team="A">
+      <survive />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="284,109,-729">true</lever>
+    <lever pos="283,109,-856">true</lever>
+    <lever pos="411,109,-730">true</lever>
+    <stone_button pos="370,132,-916">true</stone_button>
+    <lever pos="410,109,-857">true</lever>
+    <stone_button pos="324,132,-670">true</stone_button>
+  </mechanisms>
+  <gameplay>
+    <respawn>DISALLOW</respawn>
+  </gameplay>
+  <protect />
+</map>
