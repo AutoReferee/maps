@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Ridgehop</name>
+    <version>1.1</version>
+    <creators>
+      <creator>deathstrikep</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-88,104,83" yaw="-92" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-88,104,50" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-105,104,66,-89">
+    <cuboid min="-128,100,44" max="-84,107,88" />
+  </startregion>
+  <regions>
+    <cuboid min="-87,0,75" max="87,255,90">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-87,0,42" max="87,255,57">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-63,68,78" id="35,5" />
+      <block pos="-62,68,78" id="35,14" />
+      <block pos="-64,68,78" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-64,68,54" id="35,3" />
+      <block pos="-63,68,54" id="35,5" />
+      <block pos="-62,68,54" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-89,101,82">true</lever>
+    <lever pos="-89,101,50">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
