@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Construction Chaos</name>
+    <version>1.0</version>
+    <creators>
+      <creator ign="404TWBS">thatswhatbradsaid</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Left</name>
+      <spawn>
+        <location pos="110,65,149" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="AQUA">
+      <name>Right</name>
+      <spawn>
+        <location pos="110,65,127" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="122,64,138,-270">
+    <cuboid min="106,0,122" max="138,255,154" />
+  </startregion>
+  <regions>
+    <cuboid min="12,56,122" max="105,148,132">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="12,56,144" max="105,148,154">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="94,66,146" id="35,4" />
+      <block pos="92,67,145" id="35,10" />
+      <block pos="96,67,145" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="96,67,131" id="35,5" />
+      <block pos="94,66,130" id="35,4" />
+      <block pos="92,67,131" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="109,67,138">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
