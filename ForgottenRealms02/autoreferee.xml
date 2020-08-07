@@ -1,0 +1,57 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Forgotten Realms 02</name>
+    <version>1.1</version>
+    <creators>
+      <creator>spaceagent66</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GREEN">
+      <name>Left</name>
+      <spawn>
+        <location pos="140,99,-231" yaw="0" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>Right</name>
+      <spawn>
+        <location pos="107,99,-231" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="124,99,-239,-1">
+    <cuboid min="101,94,-254" max="146,104,-227" />
+  </startregion>
+  <regions>
+    <cuboid min="100,0,-234" max="115,255,177">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="132,0,-234" max="147,255,177">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="145,80,-219" id="35,13" />
+      <block pos="145,80,-220" id="35,14" />
+      <block pos="145,80,-221" id="35,15" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="102,80,-219" id="35,13" />
+      <block pos="102,80,-220" id="35,14" />
+      <block pos="102,80,-221" id="35,15" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="113,97,-228">true</lever>
+    <lever pos="134,97,-228">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect>
+    <entity>18d4993d-b045-a944-fa61-2bcf61a32a86</entity>
+    <entity>a0a90e26-ebbc-4753-f3da-e35839cef466</entity>
+  </protect>
+</map>
