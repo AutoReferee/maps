@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Facteur X</name>
+    <version>0.2</version>
+    <creators>
+      <creator>Matsuzen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1045,73,843" yaw="-180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="1045,73,864" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="1046,72,853,90">
+    <cuboid min="1040,68,840" max="1061,78,867" />
+  </startregion>
+  <regions>
+    <cuboid min="791,0,841" max="1051,255,845">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="791,0,862" max="1051,255,866">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="844,75,841" id="35,14" />
+      <block pos="841,76,842" id="35,5" />
+      <block pos="838,77,843" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="838,77,864" id="35,4" />
+      <block pos="841,76,865" id="35,5" />
+      <block pos="844,75,866" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="1048,73,847">true</lever>
+    <lever pos="1048,73,860">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
