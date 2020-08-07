@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>The Fourth Dawn</name>
+    <version>1.0</version>
+    <creators>
+      <creator>zzrules21</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="DARK_AQUA">
+      <name>Right</name>
+      <spawn>
+        <location pos="35,66,-922" yaw="269" />
+      </spawn>
+    </team>
+    <team color="DARK_PURPLE">
+      <name>Left</name>
+      <spawn>
+        <location pos="17,66,-922" yaw="89" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="26,67,-917,179">
+    <cuboid min="6,63,-927" max="46,80,-892" />
+  </startregion>
+  <regions>
+    <cuboid min="38,0,-1264" max="44,255,-915">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="8,0,-1264" max="14,255,-915">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="39,86,-1183" id="35,5" />
+      <block pos="43,87,-1185" id="35,4" />
+      <block pos="39,85,-1187" id="35,2" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="13,86,-1183" id="35,5" />
+      <block pos="9,87,-1185" id="35,4" />
+      <block pos="13,85,-1187" id="35,2" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="44,67,-922">true</lever>
+    <lever pos="8,67,-922">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
