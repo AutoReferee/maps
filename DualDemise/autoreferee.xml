@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Dual Demise</name>
+    <version>1.0</version>
+    <creators>
+      <creator>linstr13</creator>
+      <creator>ausxh2004</creator>
+      <creator>CatProductions?</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1003,61,3" yaw="-1" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="984,61,3" yaw="-1" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="993,61,6,0">
+    <cuboid min="981,58,-2" max="1006,71,34" />
+  </startregion>
+  <regions>
+    <cuboid min="1000,0,-73" max="1005,255,0">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="982,0,-73" max="987,255,0">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="1002,46,-18" id="35,14" />
+      <block pos="1002,46,-20" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="985,46,-20" id="35,5" />
+      <block pos="985,46,-18" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="994,59,3">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
