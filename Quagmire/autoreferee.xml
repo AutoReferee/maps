@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Quagmire</name>
+    <version>2.3b</version>
+    <creators>
+      <creator>RMCT Community</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="1751,89,1330" yaw="360" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="1775,89,1330" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="1763,97,1330,-178">
+    <cuboid min="1748,80,1316" max="1780,104,1335" />
+  </startregion>
+  <regions>
+    <cuboid min="1770,0,1329" max="1779,199,1701">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="1747,0,1329" max="1756,199,1701">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="1750,92,1459" id="35,4" />
+      <block pos="1750,92,1458" id="35,14" />
+      <block pos="1750,92,1457" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="1776,92,1458" id="35,14" />
+      <block pos="1776,92,1457" id="35,5" />
+      <block pos="1776,92,1459" id="35,4" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="1774,87,1330">true</lever>
+    <lever pos="1763,87,1321">false</lever>
+    <lever pos="1752,87,1330">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
