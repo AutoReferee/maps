@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Malta</name>
+    <version>1.0.1</version>
+    <creators>
+      <creator>intothevoid4</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="8,29,1477" yaw="-91" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="8,29,1457" yaw="-91" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="5,29,1467,0">
+    <cuboid min="-12,19,1453" max="16,38,1481" />
+    <cuboid min="-12,19,1453" max="17,38,1481" />
+  </startregion>
+  <regions>
+    <cuboid min="17,0,1453" max="50,143,1461">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="17,0,1473" max="50,143,1481">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="48,21,1478" id="35,11" />
+      <block pos="48,21,1476" id="35,1" />
+      <block pos="48,21,1477" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="48,21,1458" id="35,1" />
+      <block pos="48,21,1456" id="35,11" />
+      <block pos="48,21,1457" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="8,26,1467">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
