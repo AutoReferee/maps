@@ -1,0 +1,57 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Insomnia</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Thatswhatbradsaid</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1366,69,-763" yaw="90" />
+      </spawn>
+    </team>
+    <team color="DARK_AQUA">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1366,69,-788" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1354,70,-775,0">
+    <cuboid min="-1373,64,-804" max="-1316,154,-745" />
+  </startregion>
+  <regions>
+    <cuboid min="-1739,0,-767" max="-1370,169,-752">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1739,0,-799" max="-1370,169,-784">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-1431,113,-760" id="35,5" />
+      <block pos="-1427,113,-764" id="35,8" />
+      <block pos="-1423,113,-760" id="35,4" />
+      <block pos="-1427,113,-756" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-1427,113,-795" id="35,10" />
+      <block pos="-1423,113,-791" id="35,4" />
+      <block pos="-1431,113,-791" id="35,5" />
+      <block pos="-1427,113,-787" id="35,8" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1368,69,-759">true</lever>
+    <lever pos="-1368,69,-792">true</lever>
+    <lever pos="-1370,66,-776">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
