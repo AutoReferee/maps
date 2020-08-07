@@ -1,0 +1,49 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Lepidus</name>
+    <version>0.01.69</version>
+    <creators>
+      <creator>linstr13 (GOD GAMER)</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="10,63,-2" yaw="-358" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-11,63,-3" yaw="-358" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,63,-8,-6">
+    <cuboid min="-15,56,-20" max="14,78,3" />
+  </startregion>
+  <regions>
+    <cuboid min="7,0,0" max="13,255,26">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-14,0,0" max="-8,255,26">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="13,27,6" id="116,0" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-14,27,6" id="116,0" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="0,59,3">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
