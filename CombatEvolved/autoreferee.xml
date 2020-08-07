@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Combat Evolved</name>
+    <version>1.2</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-40,73,-178" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-9,73,-178" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-25,73,-202,1">
+    <cuboid min="-48,72,-225" max="-1,78,-175" />
+  </startregion>
+  <regions>
+    <cuboid min="-48,0,-176" max="-33,127,271">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-16,0,-176" max="-1,127,271">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-47,65,-155" id="35,1" />
+      <block pos="-47,65,-153" id="35,12" />
+      <block pos="-47,65,-154" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-2,65,-154" id="35,9" />
+      <block pos="-2,65,-155" id="35,1" />
+      <block pos="-2,65,-153" id="35,12" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-15,73,-176">true</lever>
+    <lever pos="-34,73,-176">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
