@@ -1,0 +1,60 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Winter's Peril</name>
+    <version>1.1.1</version>
+    <creators>
+      <creator>zzrules21</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="DARK_AQUA">
+      <name>Cyan</name>
+      <spawn>
+        <location pos="2,105,37" yaw="179" />
+      </spawn>
+    </team>
+    <team color="DARK_PURPLE">
+      <name>Purple</name>
+      <spawn>
+        <location pos="2,105,58" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-5,105,48,270">
+    <cuboid min="-26,100,31" max="10,113,64" />
+  </startregion>
+  <regions>
+    <cuboid min="0,0,84" max="215,255,95">
+      <owner>Cyan</owner>
+    </cuboid>
+    <cuboid min="0,0,56" max="215,255,67">
+      <owner>Purple</owner>
+    </cuboid>
+    <cuboid min="0,0,28" max="215,255,39">
+      <owner>Cyan</owner>
+    </cuboid>
+    <cuboid min="0,0,0" max="215,255,11">
+      <owner>Purple</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Cyan">
+      <block pos="82,67,31" id="35,4" />
+      <block pos="84,65,35" id="35,2" />
+      <block pos="86,66,33" id="35,3" />
+    </teamgoals>
+    <teamgoals team="Purple">
+      <block pos="82,67,64" id="35,4" />
+      <block pos="84,65,60" id="35,2" />
+      <block pos="86,66,62" id="35,3" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="2,105,32">true</lever>
+    <lever pos="2,105,63">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
