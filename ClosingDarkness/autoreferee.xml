@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Closing Darkness</name>
+    <version>2.404</version>
+    <creators>
+      <creator ign="im_bad_at_n">Thungon</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GOLD" maxsize="4">
+      <name>Gold</name>
+      <spawn>
+        <location pos="-87,113,-180" yaw="0" />
+      </spawn>
+    </team>
+    <team color="AQUA" maxsize="4">
+      <name>Diamond</name>
+      <spawn>
+        <location pos="-56,113,-180" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-71,114,-193,0">
+    <cuboid min="-96,108,-224" max="-47,132,-176" />
+  </startregion>
+  <regions>
+    <cuboid min="-63,0,-179" max="-48,255,-32">
+      <owner>Diamond</owner>
+    </cuboid>
+    <cuboid min="-95,0,-179" max="-80,255,-32">
+      <owner>Gold</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Gold">
+      <block pos="-85,71,-166" id="35,14" />
+      <block pos="-85,71,-167" id="35,9" />
+      <block pos="-85,71,-168" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Diamond">
+      <block pos="-58,71,-166" id="35,14" />
+      <block pos="-58,71,-168" id="35,13" />
+      <block pos="-58,71,-167" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-59,113,-178">true</lever>
+    <lever pos="-72,110,-177">false</lever>
+    <lever pos="-84,113,-178">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
