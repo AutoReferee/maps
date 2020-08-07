@@ -1,0 +1,60 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Split Decision</name>
+    <version>2.0</version>
+    <creators>
+      <creator>Thungon</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-7,65,192" yaw="-181" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="26,65,193" yaw="-183" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="10,66,206,-179">
+    <cuboid min="-14,60,189" max="33,70,222" />
+  </startregion>
+  <regions>
+    <cuboid min="-205,0,-16" max="-14,255,42">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="18,0,-255" max="33,255,192">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="33,0,-16" max="224,255,41">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-12,0,-255" max="1,255,192">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-8,76,7" id="35,14" />
+      <block pos="-8,76,5" id="35,13" />
+      <block pos="-8,76,6" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="27,76,7" id="35,14" />
+      <block pos="27,76,5" id="35,13" />
+      <block pos="27,76,6" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-3,65,191">true</lever>
+    <lever pos="22,65,191">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
