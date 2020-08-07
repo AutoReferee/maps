@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Rock's Edge</name>
+    <version>2.1a</version>
+    <creators>
+      <creator>RMCT Community</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="-361,90,559" yaw="270" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-361,90,525" yaw="270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-366,91,542,0">
+    <cuboid min="-383,59,520" max="-349,108,564" />
+  </startregion>
+  <regions>
+    <cuboid min="-356,3,520" max="-98,254,534">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-356,3,550" max="-98,254,564">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-318,57,563" id="35,13" />
+      <block pos="-320,57,563" id="35,11" />
+      <block pos="-322,57,563" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-322,57,521" id="35,14" />
+      <block pos="-320,57,521" id="35,11" />
+      <block pos="-318,57,521" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-356,83,542">false</lever>
+    <lever pos="-355,89,534">true</lever>
+    <lever pos="-355,89,550">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
