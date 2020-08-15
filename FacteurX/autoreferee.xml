@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Facteur X</name>
-    <version>0.2</version>
+    <version>0.8</version>
     <creators>
       <creator>Matsuzen</creator>
     </creators>
@@ -33,13 +33,13 @@
   </regions>
   <goals>
     <teamgoals team="Right">
-      <block pos="844,75,841" id="35,14" />
       <block pos="841,76,842" id="35,5" />
       <block pos="838,77,843" id="35,4" />
+      <block pos="844,75,841" id="35,14" />
     </teamgoals>
     <teamgoals team="Left">
-      <block pos="838,77,864" id="35,4" />
       <block pos="841,76,865" id="35,5" />
+      <block pos="838,77,864" id="35,4" />
       <block pos="844,75,866" id="35,14" />
     </teamgoals>
   </goals>
