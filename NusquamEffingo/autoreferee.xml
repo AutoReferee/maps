@@ -1,0 +1,75 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Nusquam Effingo</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Math? Ha! Math was crap! If you wanna know why, Then steal a hen. Learning shit Is for nerds and jocks. Don't believe me? Ask my UNCLE. Blue, green, Brown and red: Go to school And you'll regret it. I've got ninety-nine problems And a bitch ATE ONE!"</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="GRAY">
+      <name>Right</name>
+      <spawn>
+        <location pos="2,76,-16" yaw="91" />
+      </spawn>
+    </team>
+    <team color="BLACK">
+      <name>Left</name>
+      <spawn>
+        <location pos="2,76,15" yaw="89" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="17,78,-2,90">
+    <cuboid min="-1,73,-24" max="23,96,23" />
+  </startregion>
+  <regions>
+    <cuboid min="2,61,13" max="2,61,13">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="2,61,-14" max="2,61,-14">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-144,9,12" max="1,72,19">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-144,9,-20" max="1,72,-13">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-144,9,20" max="2,72,23">
+      <flags>
+        <nobuild />
+        <noentry />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-144,9,-23" max="2,72,-21">
+      <flags>
+        <nobuild />
+        <noentry />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="2,61,-14" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="2,61,13" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="3,75,-2">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
