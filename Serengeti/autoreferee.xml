@@ -1,0 +1,89 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Serengeti</name>
+    <version>1.0</version>
+    <creators>
+      <creator>SubAtomicPanda</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-403,80,216" yaw="269" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-403,80,239" yaw="271" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-409,80,227,270">
+    <cuboid min="-433,77,211" max="-399,88,244" />
+  </startregion>
+  <regions>
+    <cuboid min="-400,0,236" max="-103,183,247">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-308,50,239" max="-308,50,239">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-219,24,238" max="-219,24,238">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-170,22,239" max="-170,22,239">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-170,22,216" max="-170,22,216">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-219,24,217" max="-219,24,217">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-308,50,216" max="-308,50,216">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-400,0,208" max="-103,183,219">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-155,80,213" id="35,5" />
+      <block pos="-166,83,213" id="35,14" />
+      <block pos="-161,82,212" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-155,80,242" id="35,5" />
+      <block pos="-166,83,242" id="35,14" />
+      <block pos="-161,82,243" id="35,4" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-405,76,227">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
