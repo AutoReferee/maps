@@ -1,51 +1,87 @@
 <map protocol="2.0.0">
   <meta>
     <name>Harvest Hills</name>
-    <version>3.1</version>
+    <version>3.4</version>
     <creators>
       <creator>SubAtomicPanda</creator>
       <creator>Contranaut</creator>
     </creators>
   </meta>
   <teams>
-    <team color="RED">
-      <name>Left</name>
-      <spawn>
-        <location pos="0,65,12" yaw="86" />
-      </spawn>
-    </team>
     <team color="BLUE">
       <name>Right</name>
       <spawn>
         <location pos="0,65,-14" yaw="88" />
       </spawn>
     </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="0,65,12" yaw="91" />
+      </spawn>
+    </team>
   </teams>
-  <startregion spawn="8,65,-1,-61">
-    <cuboid min="-3,62,-19" max="23,75,17" />
+  <startregion spawn="9,65,-1,89">
+    <cuboid min="-3,62,-19" max="23,73,17" />
   </startregion>
   <regions>
-    <cuboid min="-275,0,-19" max="-1,154,-9">
+    <cuboid min="-69,68,-11" max="-69,68,-11">
+      <flags>
+        <noexplosion />
+      </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-275,0,7" max="-1,154,17">
+    <cuboid min="-144,66,-11" max="-144,66,-11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-256,92,-11" max="-256,92,-11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-256,92,9" max="-256,92,9">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-144,66,9" max="-144,66,9">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-69,68,9" max="-69,68,9">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-289,0,-19" max="-1,240,-9">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-289,0,7" max="-1,240,17">
       <owner>Left</owner>
     </cuboid>
   </regions>
   <goals>
-    <teamgoals team="Left">
-      <block pos="-253,114,9" id="35,1" />
-      <block pos="-247,118,9" id="35,4" />
-      <block pos="-241,114,9" id="35,14" />
-    </teamgoals>
     <teamgoals team="Right">
+      <block pos="-240,114,-11" id="35,14" />
       <block pos="-246,118,-11" id="35,4" />
       <block pos="-252,114,-11" id="35,1" />
-      <block pos="-240,114,-11" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-253,114,9" id="35,1" />
+      <block pos="-241,114,9" id="35,14" />
+      <block pos="-247,118,9" id="35,4" />
     </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="2,65,-1">false</lever>
+    <lever pos="0,63,-1">true</lever>
   </mechanisms>
   <gameplay>
     <clockstart>8am</clockstart>
