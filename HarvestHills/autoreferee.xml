@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Harvest Hills</name>
-    <version>3.4</version>
+    <version>3.5</version>
     <creators>
       <creator>SubAtomicPanda</creator>
       <creator>Contranaut</creator>
@@ -75,9 +75,9 @@
       <block pos="-252,114,-11" id="35,1" />
     </teamgoals>
     <teamgoals team="Left">
-      <block pos="-253,114,9" id="35,1" />
       <block pos="-241,114,9" id="35,14" />
       <block pos="-247,118,9" id="35,4" />
+      <block pos="-253,114,9" id="35,1" />
     </teamgoals>
   </goals>
   <mechanisms>
