@@ -1,0 +1,90 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>ColgateLibero</name>
+    <version>1.6.4</version>
+    <creators>
+      <creator>Matsuzen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="72,72,-945" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="72,72,-970" yaw="-89" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="69,65,-958,-90">
+    <cuboid min="47,58,-975" max="75,75,-940" />
+  </startregion>
+  <regions>
+    <cuboid min="261,76,-970" max="261,76,-970">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="261,76,-945" max="261,76,-945">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="360,36,-968" max="360,36,-968">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="360,36,-947" max="360,36,-947">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="468,63,-968" max="468,63,-968">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="468,63,-947" max="468,63,-947">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="74,0,-949" max="478,255,-942">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="74,0,-973" max="478,255,-966">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="313,100,-943" id="35,14" />
+      <block pos="314,100,-943" id="35,11" />
+      <block pos="315,100,-943" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="313,100,-972" id="35,14" />
+      <block pos="315,100,-972" id="35,4" />
+      <block pos="314,100,-972" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="71,73,-947">true</lever>
+    <lever pos="71,73,-968">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
