@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Colgate</name>
-    <version>1.6.2</version>
+    <version>1.6.4</version>
     <creators>
       <creator>Matsuzen</creator>
     </creators>
@@ -21,7 +21,7 @@
     </team>
   </teams>
   <startregion spawn="69,65,-958,-90">
-    <cuboid min="45,58,-975" max="75,75,-940" />
+    <cuboid min="47,58,-975" max="75,75,-940" />
   </startregion>
   <regions>
     <cuboid min="74,0,-949" max="478,255,-942">
@@ -33,14 +33,14 @@
   </regions>
   <goals>
     <teamgoals team="Right">
+      <block pos="313,100,-943" id="35,14" />
       <block pos="314,100,-943" id="35,11" />
       <block pos="315,100,-943" id="35,4" />
-      <block pos="313,100,-943" id="35,14" />
     </teamgoals>
     <teamgoals team="Left">
       <block pos="313,100,-972" id="35,14" />
-      <block pos="314,100,-972" id="35,11" />
       <block pos="315,100,-972" id="35,4" />
+      <block pos="314,100,-972" id="35,11" />
     </teamgoals>
   </goals>
   <mechanisms>
