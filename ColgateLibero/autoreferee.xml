@@ -69,9 +69,9 @@
   </regions>
   <goals>
     <teamgoals team="Right">
+      <block pos="315,100,-943" id="35,4" />
       <block pos="313,100,-943" id="35,14" />
       <block pos="314,100,-943" id="35,11" />
-      <block pos="315,100,-943" id="35,4" />
     </teamgoals>
     <teamgoals team="Left">
       <block pos="313,100,-972" id="35,14" />
