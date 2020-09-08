@@ -19,7 +19,4 @@ Want to add a map to the repository? Either:
 - [Create a pull request](https://github.com/AutoReferee/Maps/pulls) with the proper folder structure
 
 ## Maintainers
-- [jacobbearden](https://github.com/jacobbearden)
 - [GregoryPostDavis](https://github.com/GregoryPostDavis)
-- [zzrules21](https://github.com/zzrules21)
-- [atwoodben](https://github.com/atwoodben)
