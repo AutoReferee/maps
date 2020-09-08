@@ -1,23 +1,23 @@
 <map protocol="2.0.0">
   <meta>
     <name>Out West</name>
-    <version>1.2</version>
+    <version>1.3</version>
     <creators>
       <creator>Frightspear</creator>
       <creator>TacticalShrub</creator>
     </creators>
   </meta>
   <teams>
-    <team color="RED">
-      <name>Left</name>
-      <spawn>
-        <location pos="-1898,47,276" yaw="90" />
-      </spawn>
-    </team>
     <team color="BLUE">
       <name>Right</name>
       <spawn>
         <location pos="-1898,47,246" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1898,47,276" yaw="90" />
       </spawn>
     </team>
   </teams>
@@ -25,28 +25,28 @@
     <cuboid min="-1902,0,233" max="-1845,256,289" />
   </startregion>
   <regions>
-    <cuboid min="-2427,0,233" max="-1903,256,252">
-      <owner>Right</owner>
-    </cuboid>
     <cuboid min="-2427,0,270" max="-1903,256,289">
       <owner>Left</owner>
     </cuboid>
+    <cuboid min="-2427,0,233" max="-1903,256,252">
+      <owner>Right</owner>
+    </cuboid>
   </regions>
   <goals>
+    <teamgoals team="Right">
+      <block pos="-2125,5,243" id="35,3" />
+      <block pos="-2108,6,243" id="35,10" />
+      <block pos="-2116,9,243" id="35,1" />
+    </teamgoals>
     <teamgoals team="Left">
       <block pos="-2108,6,279" id="35,10" />
       <block pos="-2125,5,279" id="35,3" />
       <block pos="-2116,9,279" id="35,1" />
     </teamgoals>
-    <teamgoals team="Right">
-      <block pos="-2116,9,243" id="35,1" />
-      <block pos="-2108,6,243" id="35,10" />
-      <block pos="-2125,5,243" id="35,3" />
-    </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="-1901,47,249">true</lever>
     <lever pos="-1901,47,273">true</lever>
+    <lever pos="-1901,47,249">true</lever>
   </mechanisms>
   <gameplay>
     <clockstart>8am</clockstart>
