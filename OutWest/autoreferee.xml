@@ -25,29 +25,29 @@
     <cuboid min="-1902,0,233" max="-1845,256,289" />
   </startregion>
   <regions>
-    <cuboid min="-2427,0,270" max="-1903,256,290">
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-2427,0,232" max="-1903,256,252">
-      <owner>Right</owner>
-    </cuboid>
     <cuboid min="-2427,0,253" max="-1903,256,269">
       <flags>
         <nobuild />
       </flags>
       <owner>Right</owner>
     </cuboid>
+    <cuboid min="-2427,0,270" max="-1903,256,289">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-2427,0,233" max="-1903,256,252">
+      <owner>Right</owner>
+    </cuboid>
   </regions>
   <goals>
     <teamgoals team="Left">
-      <block pos="-2108,6,279" id="35,10" />
       <block pos="-2116,9,279" id="35,1" />
+      <block pos="-2108,6,279" id="35,10" />
       <block pos="-2125,5,279" id="35,4" />
     </teamgoals>
     <teamgoals team="Right">
+      <block pos="-2125,5,243" id="35,4" />
       <block pos="-2108,6,243" id="35,10" />
       <block pos="-2116,9,243" id="35,1" />
-      <block pos="-2125,5,243" id="35,4" />
     </teamgoals>
   </goals>
   <mechanisms>
