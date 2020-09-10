@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Entropy</name>
-    <version>1.1</version>
+    <version>1.2.1</version>
     <creators>
       <creator>ChillerFrost</creator>
       <creator>FirefoxJones</creator>
@@ -9,61 +9,61 @@
     </creators>
   </meta>
   <teams>
-    <team color="GOLD">
-      <name>Right</name>
-      <spawn>
-        <location pos="157,142,279" yaw="-90" />
-      </spawn>
-    </team>
     <team color="BLUE">
       <name>Left</name>
       <spawn>
-        <location pos="157,142,258" yaw="-90" />
+        <location pos="85,142,460" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>Right</name>
+      <spawn>
+        <location pos="85,142,483" yaw="-90" />
       </spawn>
     </team>
   </teams>
-  <startregion spawn="147,145,268,0">
-    <cuboid min="125,136,252" max="158,190,285" />
+  <startregion spawn="73,145,472,0">
+    <cuboid min="50,129,445" max="86,194,495" />
   </startregion>
   <regions>
-    <cuboid min="156,0,242" max="469,255,260">
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="156,0,277" max="469,255,295">
+    <cuboid min="84,0,480" max="391,255,498">
       <owner>Right</owner>
+    </cuboid>
+    <cuboid min="84,0,445" max="391,255,463">
+      <owner>Left</owner>
     </cuboid>
   </regions>
   <goals>
-    <teamgoals team="Right">
-      <block pos="404,12,290" id="35,2" />
-      <block pos="410,12,282" id="35,9" />
-      <block pos="400,12,284" id="35,5" />
-    </teamgoals>
     <teamgoals team="Left">
-      <block pos="404,12,247" id="35,2" />
-      <block pos="400,12,253" id="35,5" />
-      <block pos="410,12,255" id="35,9" />
+      <block pos="332,12,450" id="35,10" />
+      <block pos="328,12,456" id="35,5" />
+      <block pos="338,12,458" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="328,12,487" id="35,5" />
+      <block pos="338,12,485" id="35,9" />
+      <block pos="332,12,493" id="35,10" />
     </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="157,142,255">true</lever>
-    <lever pos="157,142,282">true</lever>
+    <lever pos="85,142,485">true</lever>
+    <lever pos="85,142,458">true</lever>
   </mechanisms>
   <gameplay>
     <clockstart>8am</clockstart>
   </gameplay>
   <protect>
-    <entity>e24fa481-e2f5-4ab1-aab2-9159f9c3f2f2</entity>
-    <entity>72672bee-3db5-4213-aeaf-ea798816391f</entity>
-    <entity>ffc4c1f5-7bcb-4a8c-9b4c-bfe76be312de</entity>
-    <entity>add93bd9-27e9-4b96-8efa-f7a1e21ef7ca</entity>
-    <entity>fb5f3de2-46e8-4236-b30f-57cb68f5ca10</entity>
-    <entity>08a6e7ff-94b3-4a52-a1c8-dd579a3abaf9</entity>
-    <entity>8c6c51eb-31fd-4cba-a630-293872139b2f</entity>
-    <entity>58fc0120-34b9-420d-9bde-140405350ca2</entity>
-    <entity>240232d1-3a8e-42bf-903b-b2be6abce51d</entity>
-    <entity>47f4d695-9508-44fc-bc8d-65d525c576af</entity>
-    <entity>85fe7c39-bea0-408b-8614-10401e495388</entity>
-    <entity>6c921df6-b29a-4529-97de-42bdb00771d8</entity>
+    <entity>350972c7-39e4-116e-8a94-7d1be147e79d</entity>
+    <entity>608c84ba-69b0-1bb3-8db2-872bbc22693d</entity>
+    <entity>653d1c71-b92a-178a-8c09-2e0fd774a519</entity>
+    <entity>6d598c4f-f706-40c7-b98d-b2c1e1f49b38</entity>
+    <entity>04bc1364-4a62-15a1-8f26-fc4cdcb22b8a</entity>
+    <entity>3d0aa7e6-ab7f-4c40-95ff-6e3f66a2df9b</entity>
+    <entity>55e3fc3a-1524-13d6-89a9-c20a63bb9db9</entity>
+    <entity>4cd2e879-3dbf-1a62-8df8-80bed1ee4b65</entity>
+    <entity>20422458-20c5-17ff-803a-e295e2480efa</entity>
+    <entity>33d04cd7-0dfa-48c7-8a72-5f23e51b33ee</entity>
+    <entity>79e27814-2159-12c3-8a31-f28f13140b48</entity>
+    <entity>4e7d0e0a-e9af-1c45-8690-c2203759da9b</entity>
   </protect>
 </map>
