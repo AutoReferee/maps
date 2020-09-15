@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Cannon Practice</name>
-    <version>1.0</version>
+    <version>1.1.1</version>
     <creators>
       <creator>Foldesi</creator>
       <creator>Ausxh</creator>
@@ -22,13 +22,19 @@
     </team>
   </teams>
   <startregion spawn="26,108,25,-90">
-    <cuboid min="0,100,0" max="52,130,50" />
+    <cuboid min="0,100,0" max="52,111,50" />
   </startregion>
   <regions>
-    <cuboid min="51,0,29" max="1000,104,40">
+    <cuboid min="455,38,29" max="517,103,40">
+      <flags>
+        <nobuild />
+      </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="739,0,29" max="754,104,40">
+    <cuboid min="51,0,29" max="1000,103,40">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="739,0,29" max="754,103,40">
       <flags>
         <nobuild />
       </flags>
@@ -40,31 +46,25 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="51,0,57" max="924,255,72">
+    <cuboid min="51,0,57" max="924,255,71">
       <flags>
         <noentry />
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="455,38,29" max="517,104,40">
-      <flags>
-        <nobuild />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="739,0,10" max="754,104,21">
+    <cuboid min="455,38,10" max="517,103,21">
       <flags>
         <nobuild />
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="51,0,10" max="1000,104,21">
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="455,38,10" max="517,104,21">
+    <cuboid min="739,0,10" max="754,103,21">
       <flags>
         <nobuild />
       </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="51,0,10" max="1000,103,21">
       <owner>Left</owner>
     </cuboid>
   </regions>
