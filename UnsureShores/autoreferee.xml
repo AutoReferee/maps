@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Unsure Shores</name>
+    <version>0.1.0</version>
+    <creators>
+      <creator>Jorcooly</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="AQUA">
+      <name>Right</name>
+      <spawn>
+        <location pos="-31,131,-2" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="DARK_PURPLE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-31,131,35" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-21,132,16,0">
+    <cuboid min="-34,127,-9" max="-12,135,42" />
+  </startregion>
+  <regions>
+    <cuboid min="-544,0,27" max="-30,255,42">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-544,0,-9" max="-30,255,6">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-332,140,-6" id="35,2" />
+      <block pos="-334,140,-6" id="35,1" />
+      <block pos="-330,140,-6" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-332,140,39" id="35,2" />
+      <block pos="-334,140,39" id="35,1" />
+      <block pos="-330,140,39" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-35,131,16">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
