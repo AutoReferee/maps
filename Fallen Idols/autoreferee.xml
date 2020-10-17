@@ -1,0 +1,235 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Fallen Idols</name>
+    <version>1.0</version>
+    <creators>
+      <creator>RFW Community</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1525,201,-198" yaw="268" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1525,201,-226" yaw="270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1528,201,-212,268">
+    <cuboid min="-1555,197,-236" max="-1518,214,-187" />
+  </startregion>
+  <regions>
+    <cuboid min="-1124,163,-210" max="-1124,163,-210">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1138,0,-204" max="-1114,253,-192">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1138,0,-232" max="-1114,253,-220">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1124,163,-214" max="-1124,163,-214">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1238,168,-222" max="-1238,168,-222">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1238,168,-202" max="-1238,168,-202">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1379,138,-203" max="-1379,138,-203">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1379,138,-221" max="-1379,138,-221">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1122,172,-212" max="-1122,172,-212">
+      <flags>
+        <noexplosion />
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1379,138,-222" max="-1379,138,-222">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,147,-209" max="-1123,151,-206">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,0,-232" max="-1114,253,-192">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,162,-215" max="-1123,164,-213">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1126,146,-214" max="-1126,161,-213">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1131,120,-204" max="-1130,121,-203">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,141,-211" max="-1123,146,-207">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,144,-219" max="-1126,145,-218">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1138,135,-220" max="-1126,145,-220">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1524,0,-232" max="-1139,253,-220">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,162,-211" max="-1123,164,-209">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1131,120,-221" max="-1130,121,-220">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1158,111,-220" max="-1126,131,-220">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1158,111,-204" max="-1126,131,-204">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1125,131,-214" max="-1123,136,-213">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1126,146,-211" max="-1126,161,-210">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,124,-220" max="-1126,142,-213">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1138,135,-204" max="-1126,145,-204">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,124,-211" max="-1126,142,-204">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,141,-217" max="-1123,146,-213">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1125,131,-211" max="-1123,136,-210">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1524,0,-204" max="-1139,253,-192">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1126,144,-206" max="-1126,145,-205">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1126,147,-218" max="-1123,152,-215">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-1307,93,-202" id="35,14" />
+      <block pos="-1303,114,-194" id="35,6" />
+      <block pos="-1287,125,-202" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-1303,114,-230" id="35,6" />
+      <block pos="-1307,93,-222" id="35,14" />
+      <block pos="-1287,125,-222" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1528,197,-210">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
