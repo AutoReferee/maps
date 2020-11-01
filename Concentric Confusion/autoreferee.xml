@@ -1,0 +1,63 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Concentric Confusion</name>
+    <version>0.1.b</version>
+    <creators>
+      <creator>Jorcooly</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-3,137,7" yaw="-180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="22,137,7" yaw="-180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="8,137,20,0">
+    <cuboid min="-9,124,4" max="28,146,39" />
+  </startregion>
+  <regions>
+    <cuboid min="18,0,-227" max="25,254,-20">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-9,124,-5" max="28,146,39">
+      <owner>Left</owner>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-9,137,-1" max="4,140,3">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-6,0,-227" max="1,254,-20">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="15,137,-2" max="28,140,3">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-3,186,-191" id="35,1" />
+      <block pos="-3,187,-188" id="35,2" />
+      <block pos="-3,185,-194" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="22,186,-191" id="35,1" />
+      <block pos="22,185,-194" id="35,5" />
+      <block pos="22,187,-188" id="35,2" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="9,131,0">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
