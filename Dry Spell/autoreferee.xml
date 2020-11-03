@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Dry Spell</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <creators>
       <creator>Djbladerunner</creator>
     </creators>
@@ -74,9 +74,9 @@
       <block pos="-1346,120,-212" id="35,14" />
     </teamgoals>
     <teamgoals team="Right">
-      <block pos="-1346,120,-231" id="35,14" />
-      <block pos="-1344,120,-231" id="35,7" />
       <block pos="-1342,120,-231" id="35,11" />
+      <block pos="-1344,120,-231" id="35,7" />
+      <block pos="-1346,120,-231" id="35,14" />
     </teamgoals>
   </goals>
   <mechanisms>
