@@ -1,0 +1,49 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Planet Practice</name>
+    <version>1.1</version>
+    <creators>
+      <creator>Bruntforce</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-32,230,94" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="-32,230,48" yaw="92" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-14,230,71,-12">
+    <cuboid min="-83,204,32" max="12,254,110" />
+  </startregion>
+  <regions>
+    <cuboid min="-130,0,79" max="117,203,202">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-130,0,-60" max="117,203,63">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="96,38,87" id="35,6" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="96,38,55" id="35,6" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-33,218,71">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
