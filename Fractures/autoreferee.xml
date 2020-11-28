@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Fractures</name>
-    <version>0.4</version>
+    <version>0.5</version>
     <creators>
       <creator>Pivione</creator>
       <creator>Steveej</creator>
@@ -9,16 +9,16 @@
     </creators>
   </meta>
   <teams>
-    <team color="RED">
-      <name>Left</name>
-      <spawn>
-        <location pos="239,89,1339" yaw="-180" />
-      </spawn>
-    </team>
     <team color="BLUE">
       <name>Right</name>
       <spawn>
         <location pos="265,89,1339" yaw="-180" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="239,89,1339" yaw="-180" />
       </spawn>
     </team>
   </teams>
@@ -26,35 +26,95 @@
     <cuboid min="233,82,1334" max="270,131,1392" />
   </startregion>
   <regions>
-    <cuboid min="235,0,1136" max="243,200,1336">
+    <cuboid min="242,61,1328" max="242,61,1328">
+      <flags>
+        <noexplosion />
+      </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="261,109,1202" max="269,110,1244">
+    <cuboid min="237,41,1327" max="237,41,1327">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="241,31,1316" max="241,31,1316">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="237,38,1312" max="237,38,1312">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="241,55,1303" max="241,55,1303">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="262,61,1328" max="262,61,1328">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="267,41,1327" max="267,41,1327">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="263,31,1316" max="263,31,1316">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="263,55,1303" max="263,55,1303">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="266,40,1312" max="266,40,1312">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="235,109,1203" max="243,111,1244">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="261,109,1202" max="269,111,1244">
       <flags>
         <nobuild />
       </flags>
       <owner>Right</owner>
+    </cuboid>
+    <cuboid min="235,0,1136" max="243,200,1336">
+      <owner>Left</owner>
     </cuboid>
     <cuboid min="261,0,1136" max="269,200,1336">
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="235,109,1203" max="243,110,1244">
-      <flags>
-        <nobuild />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
   </regions>
   <goals>
+    <teamgoals team="Right">
+      <block pos="266,158,1173" id="35,10" />
+      <block pos="265,22,1261" id="35,9" />
+      <block pos="263,26,1153" id="35,1" />
+    </teamgoals>
     <teamgoals team="Left">
       <block pos="239,22,1261" id="35,9" />
-      <block pos="238,157,1173" id="35,10" />
       <block pos="241,26,1153" id="35,1" />
-    </teamgoals>
-    <teamgoals team="Right">
-      <block pos="263,26,1153" id="35,1" />
-      <block pos="266,157,1173" id="35,10" />
-      <block pos="265,22,1261" id="35,9" />
+      <block pos="238,158,1173" id="35,10" />
     </teamgoals>
   </goals>
   <mechanisms>
