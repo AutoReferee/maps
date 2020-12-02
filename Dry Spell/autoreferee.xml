@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Dry Spell</name>
-    <version>1.4</version>
+    <version>1.5</version>
     <creators>
       <creator>Djbladerunner</creator>
     </creators>
@@ -30,6 +30,9 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
+    <cuboid min="-1576,0,-215" max="-1326,255,-204">
+      <owner>Left</owner>
+    </cuboid>
     <cuboid min="-1576,0,-239" max="-1326,255,-228">
       <owner>Right</owner>
     </cuboid>
@@ -45,12 +48,6 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-1461,64,-214" max="-1459,66,-212">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
     <cuboid min="-1529,31,-207" max="-1527,33,-205">
       <flags>
         <noexplosion />
@@ -63,7 +60,10 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-1576,0,-215" max="-1326,255,-204">
+    <cuboid min="-1461,64,-214" max="-1459,66,-212">
+      <flags>
+        <noexplosion />
+      </flags>
       <owner>Left</owner>
     </cuboid>
   </regions>
@@ -74,9 +74,9 @@
       <block pos="-1344,120,-212" id="35,7" />
     </teamgoals>
     <teamgoals team="Right">
+      <block pos="-1346,120,-231" id="35,14" />
       <block pos="-1344,120,-231" id="35,7" />
       <block pos="-1342,120,-231" id="35,11" />
-      <block pos="-1346,120,-231" id="35,14" />
     </teamgoals>
   </goals>
   <mechanisms>
