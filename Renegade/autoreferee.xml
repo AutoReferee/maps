@@ -1,0 +1,98 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Renegade</name>
+    <version>1.2</version>
+    <creators>
+      <creator>Foldesi</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="DARK_PURPLE">
+      <name>Left</name>
+      <spawn>
+        <location pos="286,162,-2619" yaw="-316" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Down</name>
+      <spawn>
+        <location pos="311,162,-2619" yaw="-44" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="311,162,-2644" yaw="-135" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Up</name>
+      <spawn>
+        <location pos="286,162,-2644" yaw="-225" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="298,162,-2631,0">
+    <cuboid min="258,141,-2672" max="339,181,-2591" />
+  </startregion>
+  <regions>
+    <cuboid min="-49,0,-2623" max="290,255,-2608">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-49,0,-2655" max="274,255,-2640">
+      <owner>Up</owner>
+    </cuboid>
+    <cuboid min="307,0,-2623" max="322,255,-2285">
+      <owner>Down</owner>
+    </cuboid>
+    <cuboid min="323,0,-2623" max="646,255,-2608">
+      <owner>Down</owner>
+    </cuboid>
+    <cuboid min="307,0,-2655" max="646,255,-2640">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="307,0,-2978" max="322,255,-2656">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="275,0,-2978" max="290,255,-2640">
+      <owner>Up</owner>
+    </cuboid>
+    <cuboid min="275,0,-2607" max="290,255,-2285">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="286,59,-2621" id="35,4" />
+      <block pos="286,60,-2619" id="35,13" />
+      <block pos="288,59,-2619" id="35,6" />
+    </teamgoals>
+    <teamgoals team="Down">
+      <block pos="311,59,-2621" id="35,4" />
+      <block pos="309,59,-2619" id="35,6" />
+      <block pos="311,60,-2619" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="309,59,-2644" id="35,6" />
+      <block pos="311,60,-2644" id="35,13" />
+      <block pos="311,59,-2642" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Up">
+      <block pos="288,59,-2644" id="35,6" />
+      <block pos="286,59,-2642" id="35,4" />
+      <block pos="286,60,-2644" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="299,158,-2630">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect>
+    <entity>81c10fb6-52ff-448d-9063-ece0e1f88689</entity>
+    <entity>5043367b-eef8-4201-a1bf-e6ac4c25ad3c</entity>
+    <entity>189fdad9-93db-49b8-9381-f88e9a1d39db</entity>
+    <entity>0bc35f41-dc53-48d9-a69e-8e5379ff2816</entity>
+  </protect>
+</map>
