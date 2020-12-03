@@ -1,0 +1,60 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Jungle Springs</name>
+    <version>2.0</version>
+    <creators>
+      <creator>Foldesi</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-14,65,13" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="11,65,13" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1,66,0,0">
+    <cuboid min="-21,63,-38" max="18,101,15" />
+  </startregion>
+  <regions>
+    <cuboid min="-20,0,13" max="-7,254,215">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1,216,63" max="8,254,88">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="4,0,13" max="17,254,215">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-10,216,63" max="-2,254,88">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-10,33,22" id="35,5" />
+      <block pos="-10,33,20" id="35,4" />
+      <block pos="-10,33,21" id="35,15" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="7,33,21" id="35,15" />
+      <block pos="7,33,20" id="35,4" />
+      <block pos="7,33,22" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-17,65,14">true</lever>
+    <lever pos="14,65,14">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
