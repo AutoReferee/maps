@@ -1,0 +1,49 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Bank</name>
+    <version>1.0</version>
+    <creators>
+      <creator>linstr13</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-20,92,1" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="19,92,1" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1,93,-4,0">
+    <cuboid min="-24,88,-16" max="23,105,13" />
+  </startregion>
+  <regions>
+    <cuboid min="-24,0,-1" max="-9,87,67">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="8,0,-1" max="23,87,67">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-23,25,3" id="41,0" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="22,25,3" id="41,0" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="0,91,1">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
