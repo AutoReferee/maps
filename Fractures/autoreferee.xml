@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Fractures</name>
-    <version>0.6.1</version>
+    <version>0.7</version>
     <creators>
       <creator>Pivione</creator>
       <creator>Steveej</creator>
@@ -86,6 +86,12 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
+    <cuboid min="235,0,1134" max="243,200,1334">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="261,0,1134" max="269,200,1334">
+      <owner>Right</owner>
+    </cuboid>
     <cuboid min="235,109,1203" max="243,111,1244">
       <flags>
         <nobuild />
@@ -98,23 +104,17 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="261,0,1134" max="269,200,1334">
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="235,0,1134" max="243,200,1334">
-      <owner>Left</owner>
-    </cuboid>
   </regions>
   <goals>
     <teamgoals team="Left">
       <block pos="239,22,1261" id="35,9" />
-      <block pos="238,158,1173" id="35,10" />
       <block pos="241,26,1153" id="35,1" />
+      <block pos="238,157,1173" id="35,10" />
     </teamgoals>
     <teamgoals team="Right">
-      <block pos="265,22,1261" id="35,9" />
       <block pos="263,26,1153" id="35,1" />
-      <block pos="266,158,1173" id="35,10" />
+      <block pos="265,22,1261" id="35,9" />
+      <block pos="266,157,1173" id="35,10" />
     </teamgoals>
   </goals>
   <mechanisms>
