@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Fractures</name>
-    <version>0.7</version>
+    <version>1.0</version>
     <creators>
       <creator>Pivione</creator>
       <creator>Steveej</creator>
@@ -26,7 +26,7 @@
     <cuboid min="233,82,1334" max="270,131,1392" />
   </startregion>
   <regions>
-    <cuboid min="242,61,1328" max="242,61,1328">
+    <cuboid min="241,61,1328" max="241,61,1328">
       <flags>
         <noexplosion />
       </flags>
@@ -44,19 +44,19 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="237,38,1312" max="237,38,1312">
+    <cuboid min="240,55,1303" max="240,55,1303">
       <flags>
         <noexplosion />
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="241,55,1303" max="241,55,1303">
+    <cuboid min="238,40,1312" max="238,40,1312">
       <flags>
         <noexplosion />
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="262,61,1328" max="262,61,1328">
+    <cuboid min="263,61,1328" max="263,61,1328">
       <flags>
         <noexplosion />
       </flags>
@@ -74,7 +74,7 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="263,55,1303" max="263,55,1303">
+    <cuboid min="264,55,1303" max="264,55,1303">
       <flags>
         <noexplosion />
       </flags>
@@ -107,19 +107,19 @@
   </regions>
   <goals>
     <teamgoals team="Left">
-      <block pos="239,22,1261" id="35,9" />
-      <block pos="241,26,1153" id="35,1" />
       <block pos="238,157,1173" id="35,10" />
+      <block pos="241,26,1153" id="35,1" />
+      <block pos="239,22,1261" id="35,9" />
     </teamgoals>
     <teamgoals team="Right">
       <block pos="263,26,1153" id="35,1" />
-      <block pos="265,22,1261" id="35,9" />
       <block pos="266,157,1173" id="35,10" />
+      <block pos="265,22,1261" id="35,9" />
     </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="260,90,1338">true</lever>
     <lever pos="244,90,1338">true</lever>
+    <lever pos="260,90,1338">true</lever>
   </mechanisms>
   <gameplay>
     <clockstart>8am</clockstart>
