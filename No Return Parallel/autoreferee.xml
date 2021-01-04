@@ -1,0 +1,73 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>No Return: Parallel</name>
+    <version>0.1</version>
+    <creators>
+      <creator>Ausxh</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Left</name>
+      <spawn>
+        <location pos="-5,25,15" yaw="90" />
+      </spawn>
+    </team>
+    <team color="DARK_PURPLE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-5,25,-15" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,25,0,89">
+    <cuboid min="-9,22,-22" max="9,30,22" />
+  </startregion>
+  <regions>
+    <cuboid min="-47,0,-7" max="-43,9,7">
+	  <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+	  <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-63,0,10" max="-2,21,21">
+	  <flags>
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+	  <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-63,0,-21" max="-2,21,-10">
+	  <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+	  <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-63,0,-9" max="-47,10,9">
+      <flags>
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+	  <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+		<survive />
+    </teamgoals>
+    <teamgoals team="Right">
+		<survive />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-4,24,-16">false</lever>
+    <lever pos="-4,24,15">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+	<respawn>beds_only</respawn>
+  </gameplay>
+  <protect />
+</map>
