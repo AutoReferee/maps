@@ -1,0 +1,92 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Manifold Mania II</name>
+    <version>5.5.1</version>
+    <creators>
+      <creator>SubAtomicPanda</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="67,98,18" yaw="179" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="43,98,18" yaw="179" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="55,98,39,179">
+    <cuboid min="34,93,16" max="76,109,47" />
+  </startregion>
+  <regions>
+    <cuboid min="65,85,-64" max="65,85,-64">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="45,85,-64" max="45,85,-64">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="45,80,-183" max="45,80,-183">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="65,80,-183" max="65,80,-183">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="65,78,-255" max="65,78,-255">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="45,78,-255" max="45,78,-255">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="63,42,-363" max="74,193,15">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="36,42,-363" max="47,193,15">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="73,97,-1" id="35,6" />
+      <block pos="73,97,-2" id="35,5" />
+      <block pos="73,97,-3" id="35,14" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="37,97,-2" id="35,5" />
+      <block pos="37,97,-1" id="35,6" />
+      <block pos="37,97,-3" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="47,98,18">true</lever>
+    <lever pos="63,98,18">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
