@@ -1,0 +1,72 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Half Life</name>
+    <version>0.2.1</version>
+    <creators>
+      <creator>koipen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Blue</name>
+      <spawn>
+        <location pos="75,103,100" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Red</name>
+      <spawn>
+        <location pos="75,103,86" yaw="-180" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="68,103,93,90">
+    <cuboid min="62,98,80" max="88,107,106" />
+  </startregion>
+  <regions>
+    <cuboid min="-53,0,67" max="-1,255,73">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-7,0,67" max="-1,255,96">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="15,0,44" max="-69,255,50">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="22,0,112" max="16,255,44">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-23,0,119" max="22,255,113">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-30,0,90" max="-24,255,119">
+      <owner>Blue</owner>
+    </cuboid>
+    <cuboid min="-53,0,136" max="38,255,142">
+      <owner>Red</owner>
+    </cuboid>
+    <cuboid min="-53,0,67" max="-47,255,142">
+      <owner>Red</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Blue">
+      <block pos="2,59,115" id="35,1" />
+      <block pos="-2,60,115" id="35,9" />
+      <block pos="6,58,115" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Red">
+      <block pos="-37,58,71" id="35,5" />
+      <block pos="-33,59,71" id="35,1" />
+      <block pos="-29,60,71" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="75,103,87">true</lever>
+    <lever pos="75,103,99">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
