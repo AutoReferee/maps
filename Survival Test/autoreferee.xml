@@ -1,0 +1,55 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Survival Test</name>
+    <version>0.6</version>
+    <creators>
+      <creator>Tay Tay Swizzle</creator>
+      <creator>Carly Rae Rae</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-454,125,1965" yaw="-179" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-454,125,1985" yaw="0" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-446,129,1975,0">
+    <cuboid min="-455,123,1951" max="-408,149,1998" />
+  </startregion>
+  <regions>
+    <cuboid min="-736,0,1983" max="-454,255,1997">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-736,0,1952" max="-454,255,1966">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-524,87,1960" id="35,14" />
+      <block pos="-530,87,1960" id="35,11" />
+      <block pos="-527,86,1960" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-527,86,1989" id="35,4" />
+      <block pos="-530,87,1989" id="35,11" />
+      <block pos="-524,87,1989" id="35,14" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-449,126,1991">true</lever>
+    <lever pos="-449,126,1958">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
