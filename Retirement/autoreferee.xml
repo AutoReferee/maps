@@ -1,0 +1,57 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Retirement</name>
+    <version>1.1</version>
+    <creators>
+      <creator>BZSTEVE</creator>
+      <creator>ChillerFrost</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="YELLOW">
+      <name>Left</name>
+      <spawn>
+        <location pos="1595,212,567" yaw="90" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Right</name>
+      <spawn>
+        <location pos="1585,212,567" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="1593,213,564,0">
+    <cuboid min="1580,208,561" max="1598,218,568" />
+  </startregion>
+  <regions>
+    <cuboid min="1575,1,320" max="1583,129,683">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="1600,1,320" max="1608,129,683">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="1604,16,563" id="35,2" />
+      <block pos="1604,16,562" id="35,5" />
+      <block pos="1604,16,561" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="1579,16,563" id="35,2" />
+      <block pos="1579,16,561" id="35,1" />
+      <block pos="1579,16,562" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="1592,209,588">true</lever>
+    <air pos="1600,70,316">true</air>
+    <air pos="1583,70,316">true</air>
+    <lever pos="1591,208,568">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
