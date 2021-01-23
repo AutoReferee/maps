@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Manifold Mania II</name>
-    <version>5.5.1</version>
+    <version>5.6.0</version>
     <creators>
       <creator>SubAtomicPanda</creator>
     </creators>
@@ -71,14 +71,14 @@
   </regions>
   <goals>
     <teamgoals team="Right">
-      <block pos="73,97,-1" id="35,6" />
-      <block pos="73,97,-2" id="35,5" />
       <block pos="73,97,-3" id="35,14" />
+      <block pos="73,97,-2" id="35,5" />
+      <block pos="73,97,-1" id="35,6" />
     </teamgoals>
     <teamgoals team="Left">
+      <block pos="37,97,-3" id="35,14" />
       <block pos="37,97,-2" id="35,5" />
       <block pos="37,97,-1" id="35,6" />
-      <block pos="37,97,-3" id="35,14" />
     </teamgoals>
   </goals>
   <mechanisms>
