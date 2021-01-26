@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Planet Attack!</name>
-    <version>0.9.2</version>
+    <version>0.10.3</version>
     <creators>
       <creator>Bruntforce</creator>
     </creators>
@@ -33,11 +33,11 @@
   </regions>
   <goals>
     <teamgoals team="Left">
+      <block pos="8,139,91" id="35,6" />
       <block pos="8,45,85" id="35,5" />
-      <block pos="8,119,91" id="35,6" />
     </teamgoals>
     <teamgoals team="Right">
-      <block pos="8,119,51" id="35,6" />
+      <block pos="8,139,51" id="35,6" />
       <block pos="8,45,57" id="35,5" />
     </teamgoals>
   </goals>
