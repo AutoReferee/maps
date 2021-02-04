@@ -1,0 +1,89 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Twin Peaks</name>
+    <version>1.1.1</version>
+    <creators>
+      <creator>SubAtomicPanda</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="102,119,90" yaw="179" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="80,119,90" yaw="179" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="91,119,96,180">
+    <cuboid min="71,116,86" max="111,126,118" />
+  </startregion>
+  <regions>
+    <cuboid min="104,49,10" max="104,49,10">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="102,48,-20" max="102,48,-20">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="102,12,-40" max="102,12,-40">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="80,12,-40" max="80,12,-40">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="80,48,-20" max="80,48,-20">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="78,49,10" max="78,49,10">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="71,0,-174" max="82,154,87">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="100,0,-174" max="111,154,87">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="101,104,76" id="35,5" />
+      <block pos="110,105,70" id="35,15" />
+      <block pos="110,107,85" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="81,104,76" id="35,5" />
+      <block pos="72,105,70" id="35,15" />
+      <block pos="72,107,85" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="91,117,90">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
