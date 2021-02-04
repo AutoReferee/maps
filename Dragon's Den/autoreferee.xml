@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Dragon's Den</name>
+    <version>0.5.2</version>
+    <creators>
+      <creator>Plumbum</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="LIGHT_PURPLE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-32,66,69" yaw="270" />
+      </spawn>
+    </team>
+    <team color="AQUA">
+      <name>Left</name>
+      <spawn>
+        <location pos="-32,66,43" yaw="270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-38,69,56,270">
+    <cuboid min="-46,60,35" max="-25,74,77" />
+  </startregion>
+  <regions>
+    <cuboid min="-34,0,38" max="224,255,48">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-34,0,64" max="224,255,74">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="95,93,69" id="35,13" />
+      <block pos="76,96,69" id="35,10" />
+      <block pos="111,93,69" id="35,9" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="76,96,43" id="35,10" />
+      <block pos="95,93,43" id="35,13" />
+      <block pos="111,93,43" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-31,67,74">true</lever>
+    <lever pos="-31,67,38">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
