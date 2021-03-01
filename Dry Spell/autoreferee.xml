@@ -1,60 +1,32 @@
 <map protocol="2.0.0">
   <meta>
     <name>Dry Spell</name>
-    <version>1.6.3</version>
+    <version>2.1</version>
     <creators>
       <creator>Djbladerunner</creator>
     </creators>
   </meta>
   <teams>
-    <team color="GREEN">
-      <name>Left</name>
-      <spawn>
-        <location pos="-1324,126,-212" yaw="91" />
-      </spawn>
-    </team>
     <team color="BLUE">
       <name>Right</name>
       <spawn>
-        <location pos="-1324,126,-230" yaw="88" />
+        <location pos="-1300,132,-238" yaw="89" />
+      </spawn>
+    </team>
+    <team color="GREEN">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1300,132,-209" yaw="91" />
       </spawn>
     </team>
   </teams>
-  <startregion spawn="-1315,152,-221,89">
-    <cuboid min="-1325,123,-240" max="-1305,172,-201" />
+  <startregion spawn="-1281,157,-224,91">
+    <cuboid min="-1292,145,-243" max="-1270,174,-204" />
+    <cuboid min="-1302,131,-242" max="-1298,136,-234" />
+    <cuboid min="-1302,131,-213" max="-1298,136,-205" />
   </startregion>
   <regions>
-    <cuboid min="-1417,66,-214" max="-1416,67,-213">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-1461,64,-231" max="-1460,65,-230">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-1576,0,-215" max="-1326,255,-204">
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-1529,31,-207" max="-1528,32,-206">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-1529,31,-238" max="-1528,32,-237">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-1576,0,-239" max="-1326,255,-228">
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-1417,66,-231" max="-1416,67,-230">
+    <cuboid min="-1461,64,-235" max="-1460,65,-234">
       <flags>
         <noexplosion />
       </flags>
@@ -66,21 +38,51 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
+    <cuboid min="-1417,66,-235" max="-1416,67,-234">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1595,0,-215" max="-1303,255,-204">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1529,31,-207" max="-1528,32,-206">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1595,0,-243" max="-1303,255,-232">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1529,31,-242" max="-1528,32,-241">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1417,66,-214" max="-1416,67,-213">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
   </regions>
   <goals>
-    <teamgoals team="Left">
-      <block pos="-1344,120,-212" id="35,7" />
-      <block pos="-1346,120,-212" id="35,14" />
-      <block pos="-1342,120,-212" id="35,11" />
-    </teamgoals>
     <teamgoals team="Right">
-      <block pos="-1344,120,-231" id="35,7" />
-      <block pos="-1342,120,-231" id="35,11" />
-      <block pos="-1346,120,-231" id="35,14" />
+      <block pos="-1316,152,-240" id="35,7" />
+      <block pos="-1319,150,-237" id="35,14" />
+      <block pos="-1313,150,-237" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-1313,150,-210" id="35,11" />
+      <block pos="-1316,152,-207" id="35,7" />
+      <block pos="-1319,150,-210" id="35,14" />
     </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="-1322,148,-222">true</lever>
+    <lever pos="-1288,152,-224">true</lever>
   </mechanisms>
   <gameplay>
     <clockstart>8am</clockstart>
