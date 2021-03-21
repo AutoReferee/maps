@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Industrial Crawl</name>
-    <version>1.4.1</version>
+    <version>1.4.2</version>
     <creators>
       <creator>Ausxh</creator>
       <creator>_Oc</creator>
@@ -9,16 +9,16 @@
     </creators>
   </meta>
   <teams>
-    <team color="GOLD">
-      <name>Left</name>
-      <spawn>
-        <location pos="84,99,13" yaw="-270" />
-      </spawn>
-    </team>
     <team color="AQUA">
       <name>Right</name>
       <spawn>
         <location pos="84,99,-14" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="GOLD">
+      <name>Left</name>
+      <spawn>
+        <location pos="84,99,13" yaw="-270" />
       </spawn>
     </team>
   </teams>
@@ -32,8 +32,23 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
+    <cuboid min="15,6,-12" max="16,7,-11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
     <cuboid min="-221,0,8" max="88,255,19">
       <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-218,68,9" max="-217,69,10">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-221,0,-20" max="88,255,-9">
+      <owner>Right</owner>
     </cuboid>
     <cuboid min="-94,80,8" max="-93,80,9">
       <flags>
@@ -47,38 +62,23 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-218,68,9" max="-217,69,10">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
     <cuboid min="-94,80,-12" max="-93,81,-11">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="15,6,-12" max="16,7,-11">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-221,0,-20" max="88,255,-9">
-      <owner>Right</owner>
-    </cuboid>
   </regions>
   <goals>
-    <teamgoals team="Left">
-      <block pos="-153,89,15" id="35,5" />
-      <block pos="-155,89,15" id="35,9" />
-      <block pos="-157,89,15" id="35,2" />
-    </teamgoals>
     <teamgoals team="Right">
       <block pos="-157,89,-16" id="35,2" />
       <block pos="-155,89,-16" id="35,9" />
       <block pos="-153,89,-16" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-153,89,15" id="35,5" />
+      <block pos="-155,89,15" id="35,9" />
+      <block pos="-157,89,15" id="35,2" />
     </teamgoals>
   </goals>
   <mechanisms>
