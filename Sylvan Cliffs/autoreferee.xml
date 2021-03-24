@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Sylvan Cliffs</name>
-    <version>5.0</version>
+    <version>5.9</version>
     <creators>
       <creator>SubAtomicPanda</creator>
     </creators>
@@ -10,42 +10,77 @@
     <team color="BLUE">
       <name>Right</name>
       <spawn>
-        <location pos="-20,108,117" yaw="-90" />
+        <location pos="-20,108,117" yaw="269" />
       </spawn>
     </team>
     <team color="RED">
       <name>Left</name>
       <spawn>
-        <location pos="-20,108,92" yaw="-91" />
+        <location pos="-20,108,92" yaw="268" />
       </spawn>
     </team>
   </teams>
-  <startregion spawn="-29,110,104,269">
-    <cuboid min="-50,102,88" max="-15,118,121" />
+  <startregion spawn="-27,108,105,0">
+    <cuboid min="-49,102,88" max="-15,119,121" />
   </startregion>
   <regions>
-    <cuboid min="-16,25,90" max="324,151,96">
+    <cuboid min="223,70,115" max="223,71,115">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="225,57,115" max="225,58,115">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="225,57,94" max="225,58,94">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="144,34,94" max="144,35,94">
+      <flags>
+        <noexplosion />
+      </flags>
       <owner>Left</owner>
     </cuboid>
     <cuboid min="-16,25,113" max="324,151,119">
       <owner>Right</owner>
     </cuboid>
+    <cuboid min="-16,25,90" max="324,151,96">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="144,34,115" max="144,35,115">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="223,70,94" max="223,71,94">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
   </regions>
   <goals>
     <teamgoals team="Right">
-      <block pos="82,91,116" id="35,9" />
-      <block pos="80,91,116" id="35,6" />
-      <block pos="84,91,116" id="35,4" />
+      <block pos="80,92,116" id="35,6" />
+      <block pos="82,92,116" id="35,9" />
+      <block pos="84,92,116" id="35,4" />
     </teamgoals>
     <teamgoals team="Left">
-      <block pos="80,91,93" id="35,6" />
-      <block pos="84,91,93" id="35,4" />
-      <block pos="82,91,93" id="35,9" />
+      <block pos="82,92,93" id="35,9" />
+      <block pos="84,92,93" id="35,4" />
+      <block pos="80,92,93" id="35,6" />
     </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="-18,109,96">true</lever>
-    <lever pos="-18,109,113">true</lever>
+    <lever pos="-16,104,105">false</lever>
   </mechanisms>
   <gameplay>
     <clockstart>8am</clockstart>
