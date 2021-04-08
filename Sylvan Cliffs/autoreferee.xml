@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Sylvan Cliffs</name>
-    <version>5.9</version>
+    <version>5.9.1</version>
     <creators>
       <creator>SubAtomicPanda</creator>
     </creators>
@@ -30,6 +30,15 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
+    <cuboid min="-16,25,113" max="324,151,119">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="223,70,94" max="223,71,94">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
     <cuboid min="225,57,115" max="225,58,115">
       <flags>
         <noexplosion />
@@ -42,25 +51,16 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="144,34,94" max="144,35,94">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-16,25,113" max="324,151,119">
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-16,25,90" max="324,151,96">
-      <owner>Left</owner>
-    </cuboid>
     <cuboid min="144,34,115" max="144,35,115">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="223,70,94" max="223,71,94">
+    <cuboid min="-16,25,90" max="324,151,96">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="144,34,94" max="144,35,94">
       <flags>
         <noexplosion />
       </flags>
@@ -70,8 +70,8 @@
   <goals>
     <teamgoals team="Right">
       <block pos="80,92,116" id="35,6" />
-      <block pos="82,92,116" id="35,9" />
       <block pos="84,92,116" id="35,4" />
+      <block pos="82,92,116" id="35,9" />
     </teamgoals>
     <teamgoals team="Left">
       <block pos="82,92,93" id="35,9" />
