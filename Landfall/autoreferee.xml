@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Landfall</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <creators>
       <creator>CatProductions</creator>
       <creator>Ausxh</creator>
@@ -70,14 +70,14 @@
   </regions>
   <goals>
     <teamgoals team="Left">
-      <block pos="148,120,-17" id="35,10" />
       <block pos="145,121,-17" id="35,5" />
+      <block pos="148,120,-17" id="35,10" />
       <block pos="142,120,-17" id="35,9" />
     </teamgoals>
     <teamgoals team="Right">
+      <block pos="145,121,16" id="35,5" />
       <block pos="142,120,16" id="35,9" />
       <block pos="148,120,16" id="35,10" />
-      <block pos="145,121,16" id="35,5" />
     </teamgoals>
   </goals>
   <mechanisms>
