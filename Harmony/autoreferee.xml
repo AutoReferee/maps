@@ -1,0 +1,54 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Harmony</name>
+    <version>0.2</version>
+    <creators>
+      <creator>Matsuzen</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="894,81,801" yaw="-89" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="894,81,826" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="891,80,813,-90">
+    <cuboid min="872,77,798" max="897,94,829" />
+  </startregion>
+  <regions>
+    <cuboid min="889,0,799" max="1170,255,804">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="889,0,823" max="1170,255,828">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="967,73,801" id="35,5" />
+      <block pos="969,73,801" id="35,9" />
+      <block pos="968,73,801" id="35,1" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="969,73,826" id="35,9" />
+      <block pos="967,73,826" id="35,5" />
+      <block pos="968,73,826" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="889,81,821">true</lever>
+    <lever pos="889,81,806">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
