@@ -1,0 +1,116 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Forgotten Spell</name>
+    <version>0.3</version>
+    <creators>
+      <creator>Djbladerunner</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1850,144,417" yaw="270" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1850,144,447" yaw="272" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1849,140,432,87">
+    <cuboid min="-1879,121,411" max="-1846,166,453" />
+    <cuboid min="-1960,41,394" max="-1879,174,471" />
+  </startregion>
+  <regions>
+    <cuboid min="-1764,90,421" max="-1763,91,422">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1764,90,442" max="-1763,91,443">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1670,130,444" max="-1670,148,446">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1830,42,421" max="-1829,43,422">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1830,42,442" max="-1829,43,443">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1848,0,416" max="-1639,254,424">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1848,0,441" max="-1639,254,449">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1669,139,436" max="-1643,167,456">
+      <flags>
+        <noexplosion />
+        <nobuild />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1717,74,421" max="-1716,75,422">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1669,139,409" max="-1643,167,429">
+      <flags>
+        <noexplosion />
+        <nobuild />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1670,130,419" max="-1670,148,421">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1717,74,442" max="-1716,75,443">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="-1640,135,423" id="35,13" />
+      <block pos="-1642,132,420" id="35,14" />
+      <block pos="-1640,134,417" id="35,11" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-1642,132,445" id="35,14" />
+      <block pos="-1640,135,442" id="35,13" />
+      <block pos="-1640,134,448" id="35,11" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-1875,126,441">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
