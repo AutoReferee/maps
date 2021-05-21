@@ -1,23 +1,23 @@
 <map protocol="2.0.0">
   <meta>
     <name>Verdant Caverns</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <creators>
       <creator>linstr13</creator>
       <creator>Ausxh</creator>
     </creators>
   </meta>
   <teams>
-    <team color="BLUE">
-      <name>Right</name>
-      <spawn>
-        <location pos="-1,103,-12" yaw="-271" />
-      </spawn>
-    </team>
     <team color="RED">
       <name>Left</name>
       <spawn>
         <location pos="-1,103,11" yaw="-269" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1,103,-12" yaw="-271" />
       </spawn>
     </team>
   </teams>
@@ -25,17 +25,20 @@
     <cuboid min="-3,101,-24" max="13,111,16" />
   </startregion>
   <regions>
+    <cuboid min="-40,57,10" max="-39,58,11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
     <cuboid min="-43,132,-12" max="-42,133,-11">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-40,57,10" max="-39,58,11">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
+    <cuboid min="-97,0,-16" max="0,255,-9">
+      <owner>Right</owner>
     </cuboid>
     <cuboid min="-43,132,9" max="-42,133,10">
       <flags>
@@ -45,6 +48,12 @@
     </cuboid>
     <cuboid min="-97,0,8" max="0,255,15">
       <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-35,1,-15" max="-34,2,-14">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
     </cuboid>
     <cuboid min="-35,1,12" max="-34,2,13">
       <flags>
@@ -58,26 +67,15 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-97,0,-16" max="0,255,-9">
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-35,1,-15" max="-34,2,-14">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
   </regions>
   <goals>
-    <teamgoals team="Right">
-      <block pos="-24,53,-9" id="35,11" />
-      <block pos="-19,55,-9" id="35,14" />
-      <block pos="-29,54,-10" id="35,13" />
-    </teamgoals>
     <teamgoals team="Left">
-      <block pos="-19,55,8" id="35,14" />
       <block pos="-24,53,8" id="35,11" />
       <block pos="-29,54,9" id="35,13" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="-29,54,-10" id="35,13" />
+      <block pos="-24,53,-9" id="35,11" />
     </teamgoals>
   </goals>
   <mechanisms>
