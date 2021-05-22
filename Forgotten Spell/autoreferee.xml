@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Forgotten Spell</name>
-    <version>0.5</version>
+    <version>0.6</version>
     <creators>
       <creator>Djbladerunner</creator>
     </creators>
@@ -102,8 +102,8 @@
     </teamgoals>
     <teamgoals team="Right">
       <block pos="-1640,134,448" id="35,11" />
-      <block pos="-1640,135,442" id="35,13" />
       <block pos="-1642,132,445" id="35,14" />
+      <block pos="-1640,135,442" id="35,13" />
     </teamgoals>
   </goals>
   <mechanisms>
