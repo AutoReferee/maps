@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Forgotten Spell</name>
-    <version>0.6</version>
+    <version>0.7</version>
     <creators>
       <creator>Djbladerunner</creator>
     </creators>
@@ -21,24 +21,29 @@
     </team>
   </teams>
   <startregion spawn="-1849,140,432,87">
-    <cuboid min="-1879,121,411" max="-1846,166,453" />
     <cuboid min="-1960,41,394" max="-1879,174,471" />
+    <cuboid min="-1879,121,411" max="-1846,166,453" />
   </startregion>
   <regions>
-    <cuboid min="-1764,90,421" max="-1763,91,422">
+    <cuboid min="-1669,139,409" max="-1643,167,429">
+      <flags>
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-1762,92,420" max="-1761,93,421">
       <flags>
         <noexplosion />
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="-1764,90,442" max="-1763,91,443">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
+    <cuboid min="-1848,0,416" max="-1639,254,424">
+      <owner>Left</owner>
     </cuboid>
-    <cuboid min="-1670,130,444" max="-1670,148,446">
+    <cuboid min="-1669,139,436" max="-1643,167,456">
       <flags>
+        <nobuild />
         <noexplosion />
       </flags>
       <owner>Right</owner>
@@ -55,31 +60,11 @@
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="-1848,0,416" max="-1639,254,424">
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-1848,0,441" max="-1639,254,449">
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-1669,139,436" max="-1643,167,456">
+    <cuboid min="-1670,130,444" max="-1670,148,446">
       <flags>
-        <nobuild />
         <noexplosion />
       </flags>
       <owner>Right</owner>
-    </cuboid>
-    <cuboid min="-1717,74,421" max="-1716,75,422">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-1669,139,409" max="-1643,167,429">
-      <flags>
-        <nobuild />
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
     </cuboid>
     <cuboid min="-1670,130,419" max="-1670,148,421">
       <flags>
@@ -87,11 +72,26 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
+    <cuboid min="-1762,92,443" max="-1761,93,444">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
     <cuboid min="-1717,74,442" max="-1716,75,443">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1848,0,441" max="-1639,254,449">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1717,74,421" max="-1716,75,422">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
     </cuboid>
   </regions>
   <goals>
