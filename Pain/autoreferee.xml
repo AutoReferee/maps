@@ -1,0 +1,89 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Pain</name>
+    <version>1.2</version>
+    <creators>
+      <creator>linstr13</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1,62,-12" yaw="268" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1,62,11" yaw="270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="0,62,-1,270">
+    <cuboid min="-17,51,-23" max="6,80,21" />
+  </startregion>
+  <regions>
+    <cuboid min="120,34,-14" max="122,36,-12">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="90,0,12" max="92,2,14">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="0,0,-15" max="173,168,-9">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="120,34,11" max="122,36,13">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="90,0,-15" max="92,2,-13">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="126,0,-12" max="128,2,-10">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="126,0,9" max="128,2,11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="0,0,8" max="173,168,14">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="63,65,-12" id="35,1" />
+      <block pos="78,73,-11" id="35,9" />
+      <block pos="51,69,-12" id="35,5" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="51,69,11" id="35,5" />
+      <block pos="63,65,11" id="35,1" />
+      <block pos="78,73,10" id="35,9" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-3,59,0">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
