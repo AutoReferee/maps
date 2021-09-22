@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Entropy</name>
-    <version>1.2.5.1</version>
+    <version>1.2.6</version>
     <creators>
       <creator>ChillerFrost</creator>
       <creator>FirefoxJones</creator>
@@ -36,13 +36,13 @@
   <goals>
     <teamgoals team="Left">
       <block pos="332,12,450" id="35,2" />
-      <block pos="338,12,458" id="35,9" />
       <block pos="328,12,456" id="35,5" />
+      <block pos="338,12,458" id="35,9" />
     </teamgoals>
     <teamgoals team="Right">
       <block pos="338,12,485" id="35,9" />
-      <block pos="332,12,493" id="35,2" />
       <block pos="328,12,487" id="35,5" />
+      <block pos="332,12,493" id="35,2" />
     </teamgoals>
   </goals>
   <mechanisms>
