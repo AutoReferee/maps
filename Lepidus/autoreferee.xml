@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Lepidus</name>
-    <version>0.01.69</version>
+    <version>0.02.69</version>
     <creators>
       <creator>linstr13 (GOD GAMER)</creator>
     </creators>
@@ -24,11 +24,11 @@
     <cuboid min="-15,56,-20" max="14,78,3" />
   </startregion>
   <regions>
-    <cuboid min="7,0,0" max="13,255,26">
-      <owner>Left</owner>
-    </cuboid>
     <cuboid min="-14,0,0" max="-8,255,26">
       <owner>Right</owner>
+    </cuboid>
+    <cuboid min="7,0,0" max="13,255,26">
+      <owner>Left</owner>
     </cuboid>
   </regions>
   <goals>
