@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Bamboo Valley RFW</name>
-    <version>2.1.7</version>
+    <version>2.1.8</version>
     <creators>
       <creator>Strangey</creator>
     </creators>
@@ -36,14 +36,11 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
-    <cuboid min="127,65,-37" max="131,69,-33">
+    <cuboid min="301,85,-2" max="305,89,2">
       <flags>
         <noexplosion />
       </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="-16,0,-45" max="305,255,-29">
-      <owner>Left</owner>
+      <owner>Right</owner>
     </cuboid>
     <cuboid min="301,85,-43" max="305,89,-39">
       <flags>
@@ -54,34 +51,37 @@
     <cuboid min="-16,0,-12" max="305,255,4">
       <owner>Right</owner>
     </cuboid>
+    <cuboid min="-16,0,-45" max="305,255,-29">
+      <owner>Left</owner>
+    </cuboid>
     <cuboid min="127,65,-8" max="131,69,-4">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="301,85,-2" max="305,89,2">
+    <cuboid min="127,65,-37" max="131,69,-33">
       <flags>
         <noexplosion />
       </flags>
-      <owner>Right</owner>
+      <owner>Left</owner>
     </cuboid>
   </regions>
   <goals>
     <teamgoals team="Left">
       <block pos="21,94,-44" id="35,6" />
-      <block pos="39,93,-38" id="35,5" />
       <block pos="48,93,-45" id="35,10" />
+      <block pos="39,93,-38" id="35,5" />
     </teamgoals>
     <teamgoals team="Right">
-      <block pos="21,94,3" id="35,6" />
-      <block pos="39,93,-3" id="35,5" />
       <block pos="48,93,4" id="35,10" />
+      <block pos="39,93,-3" id="35,5" />
+      <block pos="21,94,3" id="35,6" />
     </teamgoals>
   </goals>
   <mechanisms>
-    <lever pos="-20,155,-30">true</lever>
     <lever pos="-20,155,-11">true</lever>
+    <lever pos="-20,155,-30">true</lever>
     <lever pos="-25,156,-20">true</lever>
   </mechanisms>
   <gameplay>
