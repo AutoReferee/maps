@@ -1,107 +1,41 @@
 <map protocol="2.0.0">
   <meta>
-    <name>Sub Zero</name>
-    <version>1.0</version>
+    <name>Sub-Zero</name>
+    <version>1.2</version>
     <creators>
       <creator>SubAtomicPanda</creator>
       <creator>Hmbs</creator>
     </creators>
   </meta>
   <teams>
-    <team color="RED">
-      <name>Left</name>
-      <spawn>
-        <location pos="137,102,78" yaw="87" />
-      </spawn>
-    </team>
     <team color="BLUE">
       <name>Right</name>
       <spawn>
-        <location pos="149,102,78" yaw="269" />
+        <location pos="149,102,78" yaw="268" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="137,102,78" yaw="90" />
       </spawn>
     </team>
   </teams>
-  <startregion spawn="143,102,86,179">
-    <cuboid min="111,97,75" max="187,139,169" />
+  <startregion spawn="143,102,88,179">
+    <cuboid min="107,99,75" max="182,133,163" />
   </startregion>
   <regions>
-    <cuboid min="153,32,-169" max="153,32,-169">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="153,45,-186" max="153,45,-186">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="154,34,-200" max="154,34,-200">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="153,40,-217" max="153,40,-217">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="133,40,-217" max="133,40,-217">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="132,34,-200" max="132,34,-200">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="133,45,-186" max="133,45,-186">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="133,32,-169" max="133,32,-169">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
     <cuboid min="153,15,-103" max="154,15,-103">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
     </cuboid>
-    <cuboid min="132,15,-103" max="133,15,-103">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="153,19,7" max="154,19,7">
+    <cuboid min="151,53,-8" max="155,58,1">
       <flags>
         <noexplosion />
       </flags>
       <owner>Right</owner>
-    </cuboid>
-    <cuboid min="131,0,-236" max="135,255,80">
-      <owner>Left</owner>
-    </cuboid>
-    <cuboid min="151,0,-235" max="155,255,80">
-      <owner>Right</owner>
-    </cuboid>
-    <cuboid min="132,25,-233" max="132,25,-232">
-      <flags>
-        <noexplosion />
-      </flags>
-      <owner>Left</owner>
     </cuboid>
     <cuboid min="154,25,-233" max="154,25,-232">
       <flags>
@@ -115,17 +49,47 @@
       </flags>
       <owner>Left</owner>
     </cuboid>
+    <cuboid min="132,25,-233" max="132,25,-232">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="131,0,-234" max="135,144,82">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="151,0,-234" max="155,144,82">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="131,53,-8" max="135,58,1">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="153,19,7" max="154,19,7">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="132,15,-103" max="133,15,-103">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
   </regions>
   <goals>
-    <teamgoals team="Left">
-      <block pos="134,72,-136" id="35,14" />
-      <block pos="132,72,-139" id="35,10" />
-      <block pos="134,72,-142" id="35,9" />
-    </teamgoals>
     <teamgoals team="Right">
+      <block pos="154,72,-139" id="35,10" />
       <block pos="152,72,-136" id="35,14" />
       <block pos="152,72,-142" id="35,9" />
-      <block pos="154,72,-139" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="132,72,-139" id="35,10" />
+      <block pos="134,72,-142" id="35,9" />
+      <block pos="134,72,-136" id="35,14" />
     </teamgoals>
   </goals>
   <mechanisms>
@@ -134,10 +98,5 @@
   <gameplay>
     <clockstart>8am</clockstart>
   </gameplay>
-  <protect>
-    <entity>0c92eeb6-848c-49ef-ac11-046e8a436c9b</entity>
-    <entity>ed1059b1-e8a1-422b-8cce-e7321090df70</entity>
-    <entity>ea431b33-03eb-4e5f-9301-aa9f3ce50b04</entity>
-    <entity>bc6309c9-6b24-4d6b-84d7-42b7ddf0ceeb</entity>
-  </protect>
+  <protect />
 </map>
