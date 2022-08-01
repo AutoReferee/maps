@@ -1,0 +1,213 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Saucisse</name>
+    <version>0.1</version>
+    <creators>
+      <creator>Grossecolline</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>WEST</name>
+      <spawn>
+        <location pos="-27,108,0" yaw="92" />
+      </spawn>
+    </team>
+    <team color="BLACK">
+      <name>NORTH</name>
+      <spawn>
+        <location pos="-10,108,-17" yaw="180" />
+      </spawn>
+    </team>
+    <team color="WHITE">
+      <name>SOUTH</name>
+      <spawn>
+        <location pos="-10,108,17" yaw="0" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>EAST</name>
+      <spawn>
+        <location pos="7,108,0" yaw="271" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-10,108,1,-10">
+    <cuboid min="-15,106,-5" max="-5,107,5" />
+    <cuboid min="-27,106,-17" max="7,110,18" />
+    <cuboid min="-15,102,-5" max="-6,107,4" />
+  </startregion>
+  <regions>
+    <cuboid min="-11,80,20" max="-9,93,22">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>SOUTH</owner>
+    </cuboid>
+    <cuboid min="-28,106,-3" max="-16,110,3">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>WEST</owner>
+    </cuboid>
+    <cuboid min="-31,91,-7" max="-31,96,8">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>WEST</owner>
+    </cuboid>
+    <cuboid min="-31,80,0" max="-30,96,0">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>WEST</owner>
+    </cuboid>
+    <cuboid min="-10,80,-21" max="-10,96,-20">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>NORTH</owner>
+    </cuboid>
+    <cuboid min="11,91,-8" max="11,96,8">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>EAST</owner>
+    </cuboid>
+    <cuboid min="-18,92,21" max="-2,96,21">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>SOUTH</owner>
+    </cuboid>
+    <cuboid min="-28,71,-19" max="7,85,-19">
+      <flags>
+        <safe />
+        <noexplosion />
+      </flags>
+      <owner>NORTH</owner>
+    </cuboid>
+    <cuboid min="9,71,-18" max="9,85,18">
+      <flags>
+        <safe />
+        <noexplosion />
+      </flags>
+      <owner>EAST</owner>
+    </cuboid>
+    <cuboid min="-14,106,6" max="-6,111,17">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>SOUTH</owner>
+    </cuboid>
+    <cuboid min="-37,106,-4" max="-16,113,7">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>WEST</owner>
+    </cuboid>
+    <cuboid min="-18,91,-21" max="-2,96,-21">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>NORTH</owner>
+    </cuboid>
+    <cuboid min="-28,71,19" max="8,85,19">
+      <flags>
+        <safe />
+        <noexplosion />
+      </flags>
+      <owner>SOUTH</owner>
+    </cuboid>
+    <cuboid min="10,80,0" max="11,96,0">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>EAST</owner>
+    </cuboid>
+    <cuboid min="7,107,-4" max="7,111,4">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>EAST</owner>
+    </cuboid>
+    <cuboid min="-14,107,17" max="-6,111,17">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>SOUTH</owner>
+    </cuboid>
+    <cuboid min="-29,71,-18" max="-29,85,18">
+      <flags>
+        <safe />
+        <noexplosion />
+      </flags>
+      <owner>WEST</owner>
+    </cuboid>
+    <cuboid min="-13,107,-17" max="-6,111,-17">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>NORTH</owner>
+    </cuboid>
+    <cuboid min="-27,107,-4" max="-27,111,3">
+      <flags>
+        <safe />
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>WEST</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="WEST">
+      <block pos="-29,72,-2" id="35,4" />
+      <block pos="-29,72,2" id="35,3" />
+    </teamgoals>
+    <teamgoals team="NORTH">
+      <block pos="-12,72,-19" id="35,3" />
+      <block pos="-8,72,-19" id="35,4" />
+    </teamgoals>
+    <teamgoals team="SOUTH">
+      <block pos="-12,72,19" id="35,4" />
+      <block pos="-8,72,19" id="35,3" />
+    </teamgoals>
+    <teamgoals team="EAST">
+      <block pos="9,72,-2" id="35,3" />
+      <block pos="9,72,2" id="35,4" />
+    </teamgoals>
+  </goals>
+  <mechanisms />
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
