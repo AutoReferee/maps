@@ -1,7 +1,7 @@
 <map protocol="2.0.0">
   <meta>
     <name>Beginnergreen</name>
-    <version>0.0.1</version>
+    <version>0.1.1</version>
     <creators>
       <creator>Ausxh</creator>
       <creator>linstr13</creator>
@@ -70,8 +70,8 @@
   </regions>
   <goals>
     <teamgoals team="Right">
-      <block pos="-155,100,-11" id="35,14" />
       <block pos="-159,100,-13" id="35,11" />
+      <block pos="-155,100,-11" id="35,14" />
       <block pos="-157,100,-12" id="35,13" />
     </teamgoals>
     <teamgoals team="Left">
