@@ -1,0 +1,62 @@
+<map protocol="2.0.0">
+  <meta>
+    Tulips
+    <name>Tulips</name>
+    <version>1.0</version>
+    <creators>
+      <creator>Humbs</creator>
+      <creator />
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="175,193,72" yaw="-269" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="175,193,103" yaw="-270" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="188,200,88,-270">
+    <cuboid min="167,181,59" max="204,213,115" />
+  </startregion>
+  <regions>
+    <cuboid min="-117,112,96" max="178,255,112">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-117,112,63" max="178,255,79">
+      <owner>Right</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-114,202,72" id="35,3" />
+      <block pos="-107,201,69" id="35,1" />
+      <block pos="-115,201,65" id="35,10" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-114,202,103" id="35,3" />
+      <block pos="-115,201,110" id="35,10" />
+      <block pos="-107,201,106" id="35,1" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <air pos="172,191,105">true</air>
+    <command pos="174,189,88">true</command>
+    <command pos="174,189,90">true</command>
+    <air pos="172,191,70">true</air>
+    <lever pos="172,191,102">false</lever>
+    <lever pos="173,193,89">false</lever>
+    <lever pos="172,191,73">false</lever>
+    <air pos="175,192,86">true</air>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
