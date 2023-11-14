@@ -1,0 +1,53 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>That Just Happened</name>
+    <version>1.6</version>
+    <creators>
+      <creator>Bob the Builder</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-961,128,955" yaw="-270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-963,128,978" yaw="-360" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-960,128,969,0">
+    <cuboid min="-967,123,950" max="-940,145,985" />
+  </startregion>
+  <regions>
+    <cuboid min="-1242,0,950" max="-966,199,961">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-1242,0,974" max="-966,199,985">
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-1149,99,957" id="35,12" />
+      <block pos="-1151,104,957" id="35,10" />
+      <block pos="-1153,99,957" id="35,4" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-1149,99,978" id="35,12" />
+      <block pos="-1153,99,978" id="35,4" />
+      <block pos="-1151,104,978" id="35,10" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-965,126,969">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
