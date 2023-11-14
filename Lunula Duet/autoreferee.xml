@@ -1,0 +1,897 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Lunula Duet</name>
+    <version>1.1</version>
+    <creators>
+      <creator>Sprok</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-712,121,892" yaw="270" />
+      </spawn>
+    </team>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-823,121,891" yaw="90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-766,120,892,180">
+    <cuboid min="-829,117,860" max="-706,123,923" />
+  </startregion>
+  <regions>
+    <cuboid min="-811,20,868" max="-811,20,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-807,0,919" max="-801,255,919">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-790,0,865" max="-788,255,918">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-805,0,862" max="-805,255,874">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-809,0,886" max="-809,255,897">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-734,0,864" max="-728,255,864">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,847" max="-735,255,847">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-800,0,847" max="-773,255,847">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-787,0,864" max="-785,255,919">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-726,0,886" max="-726,255,897">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,871" max="-727,255,871">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-733,0,870" max="-726,255,870">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-809,0,913" max="-803,255,913">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-727,0,884" max="-727,255,899">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,848" max="-733,255,848">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-808,0,884" max="-808,255,899">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,935" max="-733,255,935">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-802,0,848" max="-773,255,848">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-744,0,866" max="-742,255,917">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-753,0,931" max="-727,255,931">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-806,0,863" max="-806,255,873">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-731,0,912" max="-731,255,921">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-793,0,866" max="-791,255,917">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-750,0,864" max="-748,255,919">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,936" max="-735,255,936">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-800,0,936" max="-773,255,936">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-810,0,914" max="-802,255,914">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,912" max="-733,255,920">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-808,0,852" max="-782,255,852">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-808,0,931" max="-782,255,931">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-747,0,865" max="-745,255,918">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-730,0,909" max="-730,255,921">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,846" max="-737,255,846">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,937" max="-737,255,937">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-802,0,863" max="-802,255,869">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,943" max="-754,255,943">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-728,0,911" max="-728,255,919">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-734,0,914" max="-734,255,919">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-735,0,865" max="-727,255,865">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,840" max="-753,255,840">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,849" max="-731,255,849">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-795,0,867" max="-794,255,916">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-732,0,862" max="-730,255,862">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-809,0,866" max="-809,255,870">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-739,0,868" max="-738,255,915">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-802,0,935" max="-773,255,935">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-731,0,873" max="-729,255,873">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-735,0,914" max="-735,255,918">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-728,0,881" max="-728,255,902">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-729,0,910" max="-729,255,920">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-735,0,869" max="-733,255,869">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-784,0,863" max="-782,255,920">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-732,0,872" max="-728,255,872">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-801,0,868" max="-797,255,868">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-803,0,862" max="-803,255,870">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,938" max="-739,255,938">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-804,0,862" max="-804,255,873">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,912" max="-733,255,914">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,863" max="-729,255,863">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-809,0,853" max="-785,255,853">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-800,0,914" max="-800,255,915">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,933" max="-729,255,933">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-806,0,933" max="-773,255,933">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-721,0,872" max="-710,255,873">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-830,0,898" max="-819,255,899">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-719,0,906" max="-708,255,907">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-827,0,906" max="-816,255,907">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-722,0,870" max="-711,255,871">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-735,0,914" max="-735,255,915">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-802,0,871" max="-802,255,871">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-803,0,872" max="-803,255,872">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-781,0,862" max="-754,255,921">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-801,0,913" max="-801,255,913">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-810,0,929" max="-788,255,929">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-826,0,908" max="-815,255,909">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-825,0,910" max="-814,255,911">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-810,0,867" max="-810,255,869">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-729,0,862" max="-717,255,862">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-822,0,917" max="-810,255,917">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-801,0,913" max="-801,255,915">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-821,0,918" max="-809,255,918">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-799,0,866" max="-799,255,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-734,0,913" max="-734,255,915">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-725,0,914" max="-725,255,916">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-817,0,888" max="-810,255,896">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-803,0,911" max="-803,255,913">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-724,0,915" max="-724,255,915">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-800,0,865" max="-800,255,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-800,0,869" max="-800,255,869">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-734,0,868" max="-734,255,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-716,0,884" max="-705,255,885">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-802,0,912" max="-802,255,914">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-730,0,874" max="-730,255,874">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-809,0,917" max="-799,255,917">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-800,0,870" max="-800,255,913">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-728,0,864" max="-715,255,864">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-802,0,869" max="-800,255,869">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-805,0,921" max="-803,255,921">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-750,0,853" max="-726,255,853">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-785,0,841" max="-773,255,841">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-820,0,919" max="-808,255,919">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-810,0,916" max="-798,255,916">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-717,0,881" max="-706,255,883">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-736,0,915" max="-736,255,917">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-809,0,930" max="-785,255,930">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-802,0,912" max="-802,255,912">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-817,0,861" max="-804,255,861">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-801,0,870" max="-801,255,870">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-807,0,932" max="-773,255,932">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-735,0,870" max="-735,255,913">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-811,0,868" max="-811,255,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-816,0,860" max="-802,255,860">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-801,0,871" max="-801,255,912">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-727,0,912" max="-727,255,918">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-782,0,840" max="-773,255,840">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-729,0,863" max="-715,255,864">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-804,0,934" max="-773,255,934">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-808,0,918" max="-800,255,918">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,934" max="-731,255,934">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-815,0,859" max="-800,255,859">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-753,0,852" max="-727,255,852">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-806,0,920" max="-802,255,920">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-726,0,913" max="-726,255,917">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-801,0,864" max="-801,255,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-803,0,870" max="-801,255,870">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-741,0,927" max="-723,255,927">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,841" max="-750,255,841">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-802,0,872" max="-802,255,911">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-737,0,869" max="-736,255,914">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-804,0,871" max="-802,255,871">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,932" max="-728,255,932">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-737,0,915" max="-737,255,916">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-790,0,940" max="-773,255,940">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-804,0,874" max="-804,255,909">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-731,0,874" max="-731,255,909">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-739,0,857" max="-722,255,857">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-813,0,857" max="-796,255,857">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-735,19,869" max="-733,20,869">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-813,0,926" max="-796,255,926">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-715,0,886" max="-704,255,897">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-831,0,886" max="-820,255,897">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-737,0,858" max="-721,255,858">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,940" max="-745,255,940">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-739,0,926" max="-722,255,926">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-741,0,856" max="-723,255,856">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-791,0,843" max="-773,255,843">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-812,0,856" max="-794,255,856">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-732,0,873" max="-732,255,910">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-803,0,873" max="-803,255,910">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-815,0,924" max="-800,255,924">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-730,0,876" max="-730,255,907">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,843" max="-744,255,843">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-737,0,925" max="-721,255,925">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,842" max="-747,255,842">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-814,0,925" max="-798,255,925">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-814,0,858" max="-798,255,858">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-735,0,859" max="-720,255,859">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-816,0,923" max="-802,255,923">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,923" max="-719,255,923">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-787,0,941" max="-773,255,941">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,939" max="-742,255,939">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-734,0,871" max="-734,255,912">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-726,0,917" max="-713,255,918">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-744,0,928" max="-724,255,928">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-805,0,876" max="-805,255,907">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-729,0,878" max="-729,255,905">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-793,0,939" max="-773,255,939">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-811,0,928" max="-791,255,928">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,872" max="-733,255,911">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-811,0,915" max="-798,255,915">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-727,0,865" max="-714,255,865">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-788,0,842" max="-773,255,842">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-718,0,903" max="-707,255,905">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-818,0,862" max="-806,255,862">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-819,0,863" max="-807,255,863">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-819,0,920" max="-807,255,920">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-735,0,924" max="-720,255,924">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-731,0,861" max="-718,255,861">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-720,0,874" max="-709,255,875">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-720,0,908" max="-709,255,909">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-722,0,912" max="-711,255,913">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-721,0,910" max="-710,255,911">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-723,0,914" max="-712,255,915">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-803,0,911" max="-803,255,911">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-804,0,911" max="-804,255,912">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-762,0,850" max="-729,255,850">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-826,0,874" max="-815,255,875">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-823,0,868" max="-812,255,869">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-825,0,872" max="-814,255,873">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-824,0,912" max="-813,255,913">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-823,0,914" max="-812,255,915">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-830,0,884" max="-819,255,885">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-806,0,850" max="-773,255,850">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-804,0,910" max="-804,255,911">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-810,0,854" max="-788,255,854">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-824,0,870" max="-813,255,871">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-822,0,916" max="-811,255,916">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-805,0,909" max="-805,255,909">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-732,0,872" max="-732,255,872">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-723,0,868" max="-712,255,869">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-827,0,876" max="-816,255,877">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-828,0,903" max="-817,255,905">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-724,0,916" max="-713,255,916">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-820,0,864" max="-808,255,864">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-829,0,900" max="-818,255,902">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-717,0,900" max="-706,255,902">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-796,0,845" max="-773,255,845">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-737,0,867" max="-725,255,867">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-732,0,911" max="-732,255,913">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-828,0,878" max="-817,255,880">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-807,0,851" max="-773,255,851">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,851" max="-728,255,851">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-822,0,866" max="-810,255,866">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-724,0,867" max="-713,255,867">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-822,0,867" max="-811,255,867">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-798,0,868" max="-798,255,868">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-799,0,869" max="-798,255,914">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-719,0,876" max="-708,255,877">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-716,0,898" max="-705,255,899">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-747,0,929" max="-725,255,929">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-736,0,866" max="-726,255,866">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-734,0,870" max="-732,255,870">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-726,0,917" max="-713,255,917">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-794,0,844" max="-773,255,844">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,845" max="-739,255,845">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-735,0,869" max="-725,255,869">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-718,0,878" max="-707,255,880">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-818,0,921" max="-806,255,921">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-829,0,881" max="-818,255,883">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-731,0,910" max="-731,255,912">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-804,0,849" max="-773,255,849">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-744,0,855" max="-724,255,855">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-725,0,888" max="-718,255,896">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-796,0,938" max="-773,255,938">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-784,0,942" max="-773,255,942">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,942" max="-751,255,942">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-806,0,878" max="-806,255,905">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-747,0,854" max="-725,255,854">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-741,0,867" max="-740,255,916">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-821,0,865" max="-809,255,865">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-733,0,860" max="-719,255,860">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-798,0,937" max="-773,255,937">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,941" max="-748,255,941">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-798,0,846" max="-773,255,846">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-730,0,920" max="-716,255,920">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-728,0,918" max="-714,255,918">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-808,0,865" max="-808,255,871">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-811,0,855" max="-791,255,855">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-729,0,919" max="-715,255,919">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-750,0,930" max="-726,255,930">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-781,0,943" max="-773,255,943">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-726,0,866" max="-713,255,866">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-753,0,863" max="-751,255,920">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-817,0,922" max="-804,255,922">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-731,0,922" max="-718,255,922">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-797,0,868" max="-796,255,915">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-762,0,844" max="-741,255,844">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-812,0,927" max="-794,255,927">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-807,0,911" max="-805,255,911">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-807,0,881" max="-807,255,902">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-729,0,921" max="-717,255,921">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-806,0,910" max="-805,255,910">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-807,0,864" max="-807,255,872">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-808,0,912" max="-804,255,912">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="-737,0,868" max="-724,255,868">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-732,0,912" max="-732,255,921">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="-733,0,871" max="-731,255,871">
+      <owner>Right</owner>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Right">
+      <block pos="-715,31,892" id="35,13" />
+      <block pos="-715,31,891" id="35,5" />
+      <block pos="-814,93,892" id="35,10" />
+      <block pos="-814,93,891" id="35,2" />
+    </teamgoals>
+    <teamgoals team="Left">
+      <block pos="-721,93,892" id="35,10" />
+      <block pos="-820,31,891" id="35,5" />
+      <block pos="-721,93,891" id="35,2" />
+      <block pos="-820,31,892" id="35,13" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-713,119,898">false</lever>
+    <lever pos="-822,119,885">false</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
