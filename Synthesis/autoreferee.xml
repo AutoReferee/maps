@@ -1,0 +1,105 @@
+<map protocol="2.0.0">
+  <meta>
+    <name>Synthesis</name>
+    <version>0.1</version>
+    <creators>
+      <creator>Ausxh</creator>
+      <creator>linstr13</creator>
+      <creator>RFW Community</creator>
+    </creators>
+  </meta>
+  <teams>
+    <team color="RED">
+      <name>Left</name>
+      <spawn>
+        <location pos="-1,147,-15" yaw="-90" />
+      </spawn>
+    </team>
+    <team color="BLUE">
+      <name>Right</name>
+      <spawn>
+        <location pos="-1,147,14" yaw="-90" />
+      </spawn>
+    </team>
+  </teams>
+  <startregion spawn="-1,147,0,-90">
+    <cuboid min="-60,140,-25" max="5,170,24" />
+  </startregion>
+  <regions>
+    <cuboid min="0,0,8" max="279,255,16">
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="137,19,9" max="138,20,10">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="81,30,8" max="115,48,16">
+      <flags>
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="0,0,-17" max="279,255,-9">
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="270,54,10" max="271,55,11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="81,30,-17" max="115,48,-9">
+      <flags>
+        <nobuild />
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="270,54,-13" max="271,55,-12">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="137,19,-12" max="138,20,-11">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+    <cuboid min="115,4,11" max="116,4,12">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Right</owner>
+    </cuboid>
+    <cuboid min="115,3,-14" max="116,4,-13">
+      <flags>
+        <noexplosion />
+      </flags>
+      <owner>Left</owner>
+    </cuboid>
+  </regions>
+  <goals>
+    <teamgoals team="Left">
+      <block pos="167,77,-13" id="35,5" />
+      <block pos="191,74,-11" id="35,9" />
+      <block pos="175,78,-10" id="35,6" />
+    </teamgoals>
+    <teamgoals team="Right">
+      <block pos="175,78,9" id="35,6" />
+      <block pos="191,74,10" id="35,9" />
+      <block pos="167,77,12" id="35,5" />
+    </teamgoals>
+  </goals>
+  <mechanisms>
+    <lever pos="-15,145,-16">true</lever>
+  </mechanisms>
+  <gameplay>
+    <clockstart>8am</clockstart>
+  </gameplay>
+  <protect />
+</map>
